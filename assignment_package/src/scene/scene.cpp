@@ -7,9 +7,9 @@
 #include <scene/materials/mattematerial.h>
 #include <scene/lights/diffusearealight.h>
 
-
 Scene::Scene()
-{}
+{
+}
 
 void Scene::SetCamera(const Camera &c)
 {
@@ -119,6 +119,8 @@ void Scene::Clear()
 
 void Scene::CreateLight(int level, int id, Point3f pos, Color3f intensity) {
 
+
+
     auto lightSphere = std::make_shared<Sphere>();
     Vector3f scale(1.0f);
     scale /= lights.size();
@@ -128,7 +130,13 @@ void Scene::CreateLight(int level, int id, Point3f pos, Color3f intensity) {
     lightSource->name = QString("Light Source") + QString::number(id);
 
     if(lightsMap.find(level) == lightsMap.end())
+    {
+        //mutex lock
+
+        mutex.lock();
         lightsMap[level] = std::map<int, std::shared_ptr<Light>>();
+        mutex.unlock();
+    }
 
     lightsMap[level][id] = lightSource;
 
@@ -139,7 +147,7 @@ void Scene::CreateManyLightsScene() {
     //Area lights
     //Figure in front of light
 
-    auto matteWhite = std::make_shared<MatteMaterial>(Color3f(1,1,1), 0, nullptr, nullptr);
+    auto matteWhite = std::make_shared<MatteMaterial>(Color3f(1,0,1), 0, nullptr, nullptr);
     auto matteRed = std::make_shared<MatteMaterial>(Color3f(1,0,0), 0, nullptr, nullptr);
     auto matteGreen = std::make_shared<MatteMaterial>(Color3f(0,1,0), 0, nullptr, nullptr);
 

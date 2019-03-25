@@ -6,6 +6,8 @@
 
 #include "lgh/cyLightingGrid.h"
 
+#include <QMutex>
+
 
 class Primitive;
 class Material;
@@ -23,7 +25,7 @@ public:
 
     std::map<int, std::map<int, std::shared_ptr<Light>>> lightsMap;
 
-
+    QMutex mutex;
     Camera camera;
     Film film;
 
