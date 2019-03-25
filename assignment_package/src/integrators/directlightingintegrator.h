@@ -11,7 +11,7 @@ public:
     // Evaluate the energy transmitted along the ray back to
     // its origin, which can only be the camera in a direct lighting
     // integrator (only rays from light sources are considered)
-    virtual Color3f Li(const Ray &ray, const Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const;
+    virtual Color3f Li(const Ray &ray, Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const;
 
     Color3f LightingFuction(const Ray &ray, const Scene &scene, std::shared_ptr<Sampler> sampler, Intersection &isect, int lightId) const;
 

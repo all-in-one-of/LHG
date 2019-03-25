@@ -12,6 +12,7 @@
 #include <integrators/naiveintegrator.h>
 #include <integrators/fulllightingintegrator.h>
 #include <scene/lights/diffusearealight.h>
+#include <integrators/hirerarchyintegrator.h>
 #include <QDateTime>
 
 constexpr float screen_quad_pos[] = {
@@ -403,6 +404,10 @@ void MyGL::RenderScene()
             case NAIVE_LIGHTING:
                 rt = new NaiveIntegrator(tileBounds, &scene, sampler->Clone(seed), recursionLimit);
                 break;
+            case LITZUP_LIGHTING:
+                //scene needs to be update
+                rt = new Hirerarchyintegrator(tileBounds, &scene, sampler->Clone(seed), recursionLimit);
+                break;
             }
 #define MULTITHREAD // Comment this line out to be able to debug with breakpoints.
 #ifdef MULTITHREAD
@@ -513,5 +518,8 @@ void MyGL::slot_SetIntegratorType(int t)
     case 3:
         integratorType = FULL_LIGHTING;
         break;
+    case 4:
+        integratorType = LITZUP_LIGHTING;
     }
 }
+

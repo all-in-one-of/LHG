@@ -117,6 +117,22 @@ void Scene::Clear()
     film = Film();
 }
 
+void Scene::CreateLight(int level, int id, Point3f pos, Color3f intensity) {
+
+    auto lightSphere = std::make_shared<Sphere>();
+    Vector3f scale(1.0f);
+    scale /= lights.size();
+
+    lightSphere->transform = Transform(pos,intensity, scale);
+    auto lightSource = std::make_shared<DiffuseAreaLight>(lightSphere->transform, intensity, lightSphere);
+    lightSource->name = QString("Light Source") + QString::number(id);
+
+    if(lightsMap.find(level) == lightsMap.end())
+        lightsMap[level] = std::map<int, std::shared_ptr<Light>>();
+
+    lightsMap[level][id] = lightSource;
+
+}
 
 void Scene::CreateManyLightsScene() {
     //Floor
@@ -197,20 +213,30 @@ void Scene::CreateManyLightsScene() {
         lightIntensities.push_back( cy::Color(light->R().x, light->R().y, light->R().z ));
     }
 
+    //////////////////////// //////////// Build LGH //////////// ////////////////////////
     int minLevelLights = 1;
+    float cellSize = 1.f; // change to 1.01
+    int highestLevel = 4;
     const cy::Point3f *lightPos_ptr = lightPos.data();
     const cy::Color *lightCol_ptr = lightIntensities.data();
 
 
-    LGH.Build(lightPos_ptr, lightCol_ptr, (int)lightPos.size(), minLevelLights);
+    LGH.Build(lightPos_ptr, lightCol_ptr, (int)lightPos.size(), minLevelLights, cellSize, highestLevel);
+
+    //////////////////////// //////////// /////
+    /// /////// //////////// ////////////////////////
 
     int nLevels = LGH.GetNumLevels();
+    lightsLGH.resize(nLevels);
 
     std::vector<std::vector<cy::Point3f>> all_points(nLevels);
-
+    scale = Vector3f(1.0f);
+    scale /= lights.size()*5;
 
     auto lightingFuc = [&](int level, int light_id, const cy::Point3f &light_position, const cy::Color &light_intensity){
+
         all_points[level].push_back(light_position);
+
     };
 
 

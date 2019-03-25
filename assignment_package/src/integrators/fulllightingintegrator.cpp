@@ -1,6 +1,6 @@
 #include "fulllightingintegrator.h"
 
-Color3f FullLightingIntegrator::Li(const Ray &r, const Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const
+Color3f FullLightingIntegrator::Li(const Ray &r, Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const
 {
     Color3f L(0.f), beta(1.f);
 
@@ -64,7 +64,7 @@ Color3f FullLightingIntegrator::Li(const Ray &r, const Scene &scene, std::shared
 
 
 Color3f FullLightingIntegrator::UniformSampleOneLight(const Intersection &isect,
-                                  const Scene &scene, Sampler &sampler, const Ray &ray) const
+                                  Scene &scene, Sampler &sampler, const Ray &ray) const
 {
     // randomly select a light
     int nLights = scene.lights.size();

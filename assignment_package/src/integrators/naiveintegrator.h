@@ -10,5 +10,5 @@ public:
 
     // Evaluate the energy transmitted along the ray back to
     // its origin, e.g. the camera or an intersection in the scene
-    virtual Color3f Li(const Ray &ray, const Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const;
+    virtual Color3f Li(const Ray &ray, Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const;
 };

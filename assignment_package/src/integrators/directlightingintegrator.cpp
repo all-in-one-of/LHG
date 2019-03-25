@@ -27,7 +27,7 @@ Color3f DirectLightingIntegrator::LightingFuction(const Ray &ray, const Scene &s
 }
 
 
-Color3f DirectLightingIntegrator::Li(const Ray &ray, const Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const
+Color3f DirectLightingIntegrator::Li(const Ray &ray, Scene &scene, std::shared_ptr<Sampler> sampler, int depth) const
 {
     //DONE
     Intersection isect;

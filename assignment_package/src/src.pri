@@ -46,7 +46,8 @@ SOURCES += \
     $$PWD/scene/materials/glassmaterial.cpp \
     $$PWD/scene/materials/transmissivematerial.cpp \
     $$PWD/scene/materials/specularbtdf.cpp \
-    $$PWD/lgh/pointcloud.cpp
+    $$PWD/lgh/pointcloud.cpp \
+    $$PWD/integrators/hirerarchyintegrator.cpp
 
 HEADERS += \
     $$PWD/mainwindow.h \
@@ -100,4 +101,5 @@ HEADERS += \
     $$PWD/lgh/cyColor.h \
     $$PWD/lgh/cyIPoint.h \
     $$PWD/lgh/cyLightingGrid.h \
-    $$PWD/lgh/cyCore.h
+    $$PWD/lgh/cyCore.h \
+    $$PWD/integrators/hirerarchyintegrator.h

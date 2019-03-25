@@ -32,13 +32,13 @@ public:
 
     // Evaluate the energy transmitted along the ray back to
     // its origin, e.g. the camera or an intersection in the scene
-    virtual Color3f Li(const Ray& ray, const Scene& scene, std::shared_ptr<Sampler> sampler, int depth) const = 0;
+    virtual Color3f Li(const Ray& ray, Scene& scene, std::shared_ptr<Sampler> sampler, int depth) const = 0;
 
     // Clamp the upper end of our bounds to not go past the edge of the film.
     void ClampBounds();
 
 protected:
-    Scene const * const scene;
+    Scene * const scene;
     Camera const * const camera;			// A pointer to the Camera instance stored in MyGL.
     Film * const film;						// A pointer to the Film instance stored in MyGL.
     std::shared_ptr<Sampler> sampler;       // A pointer to the Sampler that we will use to generate pixel samples for this thread.
