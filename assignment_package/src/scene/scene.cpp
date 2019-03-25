@@ -7,6 +7,7 @@
 #include <scene/materials/mattematerial.h>
 #include <scene/lights/diffusearealight.h>
 
+
 Scene::Scene()
 {
 }
@@ -147,7 +148,7 @@ void Scene::CreateManyLightsScene() {
     //Area lights
     //Figure in front of light
 
-    auto matteWhite = std::make_shared<MatteMaterial>(Color3f(1,0,1), 0, nullptr, nullptr);
+    auto matteWhite = std::make_shared<MatteMaterial>(Color3f(1,1,1), 0, nullptr, nullptr);
     auto matteRed = std::make_shared<MatteMaterial>(Color3f(1,0,0), 0, nullptr, nullptr);
     auto matteGreen = std::make_shared<MatteMaterial>(Color3f(0,1,0), 0, nullptr, nullptr);
 
@@ -172,8 +173,15 @@ void Scene::CreateManyLightsScene() {
         auto lightSphere = std::make_shared<Sphere>();
         float x = -4.0f + (float) (i/numLights_sqrt) / numLights_sqrt * 10;
         float z = -4.0f + (float) (i%numLights_sqrt) / numLights_sqrt * 10;
-        lightSphere->transform = Transform(Vector3f(x, j+2, z), Vector3f(0,180,0), scale);
-        auto lightSource = std::make_shared<DiffuseAreaLight>(lightSphere->transform, Color3f(1,1,1) * 2.f, lightSphere);
+        lightSphere->transform = Transform(Vector3f(x, j+3.5, z), Vector3f(0,0,0), scale);
+
+        float r = (float)std::rand() / RAND_MAX;
+        float g = (float)std::rand() / RAND_MAX;
+        float b = (float)std::rand() / RAND_MAX;
+
+
+        auto lightSource = std::make_shared<DiffuseAreaLight>(lightSphere->transform,
+                                                              Color3f(r, g, b) * 100.f / (float)numLights, lightSphere);
         auto lightPrim = std::make_shared<Primitive>(lightSphere, nullptr, lightSource);
         lightPrim->name = QString("Light Source");
         lightSource->name = QString("Light Source") + QString::number(i);
