@@ -1,0 +1,223 @@
+{
+  "frames" :[
+    {
+    "frameNumber" : 0,
+    "scene" : {
+      "camera" : {
+        "target" : [0, 2.5, 0],
+        "eye" : [0, 5.5, -30],
+        "worldUp" : [0, 1, 0],
+        "fov" : 19.5,
+        "width" : 512,
+        "height": 512
+      },
+      "primitives" : [
+        {
+          "shape" : "SquarePlane",
+          "name" : "Floor",
+          "material" : "matteWhite",
+          "transform" : {
+            "translate" : [0, -2.5, 0],
+            "rotate" : [-90, 0, 0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Grenn wall",
+          "material" : "matteGreen",
+          "transform" : {
+            "translate" : [5,2.5,0],
+            "rotate" : [0, -90, 0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Green Wall",
+          "material" : "matteGreen",
+          "transform" : {
+            "translate" : [-5, 2.5, 0],
+            "rotate" : [0,90, 0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Back Wall",
+          "material" : "matteRed",
+          "transform" : {
+            "translate" : [0,-2.5,-2],
+            "rotate" : [80,180,0],
+            "scale" : [20, 100, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Ceiling Wall",
+          "material" : "matteWhite",
+          "transform" : {
+            "translate" : [0, 7.5, 0],
+            "rotate" : [90,0,0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "transmissive sphere",
+          "material" : "transmissiveMaterial",
+          "transform" : {
+            "translate" : [0, 1.25, 0],
+            "rotate" : [0,0,0],
+            "scale" : [3, 3, 3]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "transmissive sphere",
+          "material" : "transmissiveMaterial",
+          "transform" : {
+            "translate" : [-2, 4.25, 0],
+            "rotate" : [0,0,0],
+            "scale" : [1.5, 1.5, 1.5]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "transmissive sphere",
+          "material" : "transmissiveMaterial",
+          "transform" : {
+            "translate" : [2, 4.25, 0],
+            "rotate" : [0,0,0],
+            "scale" : [1.5, 1.5, 1.5]
+          }
+        }
+      ],
+      "lights" : [
+        {
+          "shape" : "Sphere",
+          "name" : "Light Source",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [12,12,12],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [-2,7.45,0],
+            "rotate" : [0,0,0],
+            "scale" : [0.2, 0.2, 0.2]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        }, {
+          "shape" : "Sphere",
+          "name" : "Light Source5",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [12,12,12],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [-3,7.45,0],
+            "rotate" : [0,0,0],
+            "scale" : [0.2, 0.2, 0.2]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        }, {
+          "shape" : "Sphere",
+          "name" : "Light Source6",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [12,12,12],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [3,7.45,0],
+            "rotate" : [0,0,0],
+            "scale" : [0.2, 0.2, 0.2]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Light Source2",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [12,12,12],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [2,7.45,0],
+            "rotate" : [0,0,0],
+            "scale" : [0.2, 0.2, 0.2]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Light Source3",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [12,12,12],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [-4.75,1.45,0],
+            "rotate" : [0,0,0],
+            "scale" : [0.2, 0.2, 0.2]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Light Source4",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [12,12,12],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [4.75,1.45,0],
+            "rotate" : [0,0,0],
+            "scale" : [0.2, 0.2, 0.2]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        }
+
+
+      ],
+      "materials" : [
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteWhite",
+            "Kd" : [0.85, 0.81, 0.78],
+          "sigma": 0
+        },
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteRed",
+          "Kd" : [0.63, 0.065, 0.05],
+          "sigma": 0
+        },
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteGreen",
+          "Kd" : [0.14, 0.45, 0.091],
+          "sigma": 0
+        },{
+          "type" : "MatteMaterial",
+          "name" : "matteBlue",
+          "Kd" : [0.14, 0.01, 0.3],
+          "sigma": 0
+        },
+        {
+          "type": "GlassMaterial",
+          "name": "transmissiveMaterial",
+          "Kt": [1, 1, 1],
+          "Kr": [1, 1, 1],
+          "eta": 1.2
+        },
+        {
+          "type": "MatteMaterial",
+          "name": "texturedMaterial",
+          "Kd": [1, 1, 1],
+          "textureMap": "tex_nor_maps/whitebubble.jpg"
+        }
+      ]
+    }
+  }
+]
+}
