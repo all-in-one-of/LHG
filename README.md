@@ -1,7 +1,7 @@
-Path Tracer Part IV: Global Illumination
+Lighting Grid Hierarchy for Self-illuminating Explosions
 ======================
 
-**University of Pennsylvania, CIS 561: Advanced Computer Graphics, Homework 7**
+
 
 Overview
 ------------
