@@ -1,0 +1,1984 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Release64\) contains files shared from another project (hlsystem.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : Command line warning D9025: overriding '/MDd' with '/MD'
+  main.cpp
+  vec.cpp
+cl : Command line warning D9025: overriding '/TC' with '/TP'
+cl : Command line warning D9025: overriding '/MDd' with '/MD'
+  SOP_SParticle.C
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_string.h(189): warning C4996: 'memccpy': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _memccpy. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h(79): note: see declaration of 'memccpy'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_string.h(230): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: see declaration of 'stricmp'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_string.h(240): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: see declaration of 'strnicmp'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(125): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(147): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(154): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(217): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(258): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(266): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(359): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_string.h(391): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: see declaration of 'stricmp'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(267): warning C4244: 'argument': conversion from 'int' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(272): warning C4244: 'return': conversion from 'int' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(534): warning C4018: '<=': signed/unsigned mismatch
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(552): warning C4018: '<=': signed/unsigned mismatch
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(1108): warning C4244: 'return': conversion from 'uint64' to 'uint', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(1116): warning C4244: 'return': conversion from 'uint64' to 'uint', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\vm\vm_math.h(317): warning C4244: 'argument': conversion from 'fpreal' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\vm\vm_math.h(324): warning C4244: '+=': conversion from 'fpreal' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\vm\vm_math.h(383): warning C4244: '=': conversion from 'double' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_errormanager.h(189): warning C4251: 'UT_ErrorManager::myList': class 'UT_ValArray<UT_Error *>' needs to have dll-interface to be used by clients of class 'UT_ErrorManager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_errormanager.h(25): note: see declaration of 'UT_ValArray<UT_Error *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_errormanager.h(83): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_offsetlist.h(459): warning C4251: 'GA_ListTypeRef<FromType,ToType,INT_TYPE>::ListTypeData::myRefCount': class 'SYS_AtomicInt<int64>' needs to have dll-interface to be used by clients of class 'GA_ListTypeRef<FromType,ToType,INT_TYPE>::ListTypeData'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(80): note: see declaration of 'SYS_AtomicInt<int64>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_offsetlist.h(459): note: see reference to class template instantiation 'GA_ListTypeRef<FromType,ToType,INT_TYPE>::ListTypeData' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_offsetlist.h(933): note: see reference to class template instantiation 'GA_ListTypeRef<FromType,ToType,INT_TYPE>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_elementgrouporder.h(143): warning C4251: 'GA_ElementGroupOrder::mySecondaryElements': class 'UT_Array<GA_SecondaryLookupInfo *>' needs to have dll-interface to be used by clients of class 'GA_ElementGroupOrder'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_elementgrouporder.h(143): note: see declaration of 'UT_Array<GA_SecondaryLookupInfo *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_rangetypeinterface.h(209): warning C4251: 'GA_RangeTypeInterface::myRefCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'GA_RangeTypeInterface'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_indexmap.h(756): warning C4251: 'GA_IndexMap::myFirstFreeIndex': class 'SYS_AtomicInt<int64>' needs to have dll-interface to be used by clients of class 'GA_IndexMap'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(80): note: see declaration of 'SYS_AtomicInt<int64>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_storage.h(260): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_boundingsphere.h(56): warning C4251: 'UT_BoundingSphere::myPointArray': class 'UT_ValArray<UT_Vector3R>' needs to have dll-interface to be used by clients of class 'UT_BoundingSphere'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(126): note: see declaration of 'UT_ValArray<UT_Vector3R>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_defaults.h(305): warning C4251: 'UT_Defaults::myType': struct 'UT_TupleType<-1,void>' needs to have dll-interface to be used by clients of class 'UT_Defaults'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_storage.h(258): note: see declaration of 'UT_TupleType<-1,void>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_defaults.h(227): warning C4244: '=': conversion from 'int64' to 'int32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_defaults.h(231): warning C4244: '=': conversion from 'fpreal64' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_defaults.h(257): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_bitarray.h(346): warning C4018: '<': signed/unsigned mismatch
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributeproxy.h(95): warning C4251: 'GA_AttributeProxy::myReferenceCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'GA_AttributeProxy'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(224): warning C4251: 'UT_StringRef::Holder::myRefCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_StringRef::Holder'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(533): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(548): warning C4244: 'return': conversion from 'intptr_t' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(561): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(576): warning C4244: 'return': conversion from 'intptr_t' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(587): warning C4244: 'initializing': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(709): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(714): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(740): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(745): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(1240): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributetype.h(126): warning C4251: 'GA_AttributeType::theCreator': class 'GA_AttributeType::Creator' needs to have dll-interface to be used by clients of class 'GA_AttributeType'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributetype.h(125): note: see declaration of 'GA_AttributeType::Creator'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributetype.h(140): warning C4251: 'GA_AttributeType::myAIFs': class 'UT_Array<GA_AIFBase *>' needs to have dll-interface to be used by clients of class 'GA_AttributeType'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributetype.h(140): note: see declaration of 'UT_Array<GA_AIFBase *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atitopology.h(294): warning C4251: 'GA_ATITopology::myData': class 'GA_PageArray<void,1,true,false>' needs to have dll-interface to be used by clients of class 'GA_ATITopology'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atitopology.h(242): note: see declaration of 'GA_PageArray<void,1,true,false>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_blobdata.h(32): warning C4251: 'UT_IntrusiveRefCounter<GA_BlobData,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>::myRefCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_IntrusiveRefCounter<GA_BlobData,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>'
+          with
+          [
+              DerivedT=GA_BlobData
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(454): warning C4251: 'UT_IndexedHashMap::unsafe_listiterator::myIterator': class 'tbb::internal::vector_iterator<tbb::concurrent_vector<UT_IndexedHashMap::listContainer,tbb::cache_aligned_allocator<T>>,const T>' needs to have dll-interface to be used by clients of class 'UT_IndexedHashMap::unsafe_listiterator'
+          with
+          [
+              T=UT_IndexedHashMap::listContainer
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\tbb\concurrent_vector.h(579): note: see declaration of 'tbb::internal::vector_iterator<tbb::concurrent_vector<UT_IndexedHashMap::listContainer,tbb::cache_aligned_allocator<T>>,const T>'
+          with
+          [
+              T=UT_IndexedHashMap::listContainer
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(526): warning C4251: 'UT_IndexedHashMap::unsafe_iterator::myIterator': class 'tbb::interface5::internal::hash_map_iterator<tbb::interface5::concurrent_hash_map<UT_IndexedHashMap::keyContainer,UT_IndexedHashMap::itemContainer *,UT_IndexedHashMap::keyCompare,tbb::tbb_allocator<std::pair<Key,T>>>,const std::pair<const Key,T>>' needs to have dll-interface to be used by clients of class 'UT_IndexedHashMap::unsafe_iterator'
+          with
+          [
+              Key=UT_IndexedHashMap::keyContainer,
+              T=UT_IndexedHashMap::itemContainer *
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\tbb\concurrent_hash_map.h(549): note: see declaration of 'tbb::interface5::internal::hash_map_iterator<tbb::interface5::concurrent_hash_map<UT_IndexedHashMap::keyContainer,UT_IndexedHashMap::itemContainer *,UT_IndexedHashMap::keyCompare,tbb::tbb_allocator<std::pair<Key,T>>>,const std::pair<const Key,T>>'
+          with
+          [
+              Key=UT_IndexedHashMap::keyContainer,
+              T=UT_IndexedHashMap::itemContainer *
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(548): warning C4251: 'UT_IndexedHashMap::myMap': class 'tbb::interface5::concurrent_hash_map<UT_IndexedHashMap::keyContainer,UT_IndexedHashMap::itemContainer *,UT_IndexedHashMap::keyCompare,tbb::tbb_allocator<std::pair<Key,T>>>' needs to have dll-interface to be used by clients of class 'UT_IndexedHashMap'
+          with
+          [
+              Key=UT_IndexedHashMap::keyContainer,
+              T=UT_IndexedHashMap::itemContainer *
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(380): note: see declaration of 'tbb::interface5::concurrent_hash_map<UT_IndexedHashMap::keyContainer,UT_IndexedHashMap::itemContainer *,UT_IndexedHashMap::keyCompare,tbb::tbb_allocator<std::pair<Key,T>>>'
+          with
+          [
+              Key=UT_IndexedHashMap::keyContainer,
+              T=UT_IndexedHashMap::itemContainer *
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(549): warning C4251: 'UT_IndexedHashMap::myList': class 'tbb::concurrent_vector<UT_IndexedHashMap::listContainer,tbb::cache_aligned_allocator<T>>' needs to have dll-interface to be used by clients of class 'UT_IndexedHashMap'
+          with
+          [
+              T=UT_IndexedHashMap::listContainer
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(382): note: see declaration of 'tbb::concurrent_vector<UT_IndexedHashMap::listContainer,tbb::cache_aligned_allocator<T>>'
+          with
+          [
+              T=UT_IndexedHashMap::listContainer
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(550): warning C4251: 'UT_IndexedHashMap::myHoles': class 'tbb::strict_ppl::concurrent_queue<UT_IndexedHashMapItemId,tbb::cache_aligned_allocator<T>>' needs to have dll-interface to be used by clients of class 'UT_IndexedHashMap'
+          with
+          [
+              T=UT_IndexedHashMapItemId
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(383): note: see declaration of 'tbb::strict_ppl::concurrent_queue<UT_IndexedHashMapItemId,tbb::cache_aligned_allocator<T>>'
+          with
+          [
+              T=UT_IndexedHashMapItemId
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(551): warning C4251: 'UT_IndexedHashMap::myListSize': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_IndexedHashMap'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(128): warning C4244: 'return': conversion from 'const T' to 'UT_IndexedHashMapItemId', possible loss of data
+          with
+          [
+              T=exint
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(413): warning C4244: 'return': conversion from 'exint' to 'UT_IndexedHashMapItemId', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmap.h(483): warning C4244: 'return': conversion from 'exint' to 'UT_IndexedHashMapItemId', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_blobcontainer.h(312): warning C4251: 'GA_BlobContainer::myMap': class 'UT_IndexedHashMapT<GA_BlobContainer::MapKey,GA_BlobContainer::MapItem,GA_BlobContainer::MapAlloc>' needs to have dll-interface to be used by clients of class 'GA_BlobContainer'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_blobcontainer.h(312): note: see declaration of 'UT_IndexedHashMapT<GA_BlobContainer::MapKey,GA_BlobContainer::MapItem,GA_BlobContainer::MapAlloc>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_blobcontainer.h(98): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_aifsharedstringtuple.h(354): warning C4251: 'GA_AIFSharedStringTuple::StringBuffer::myHandleList': class 'UT_Array<T>' needs to have dll-interface to be used by clients of class 'GA_AIFSharedStringTuple::StringBuffer'
+          with
+          [
+              T=int
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_valarray.h(40): note: see declaration of 'UT_Array<T>'
+          with
+          [
+              T=int
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_databitarray.h(201): warning C4251: 'GA_DataBitArray::myPages': class 'UT_Array<ga_DataBitArrayPage *>' needs to have dll-interface to be used by clients of class 'GA_DataBitArray'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_databitarray.h(201): note: see declaration of 'UT_Array<ga_DataBitArrayPage *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributedict.h(519): warning C4251: 'GA_AttributeDict::myTable': class 'UT_ArrayStringMap<GA_AttributeProxy *>' needs to have dll-interface to be used by clients of class 'GA_AttributeDict'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributedict.h(45): note: see declaration of 'UT_ArrayStringMap<GA_AttributeProxy *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributedict.h(520): warning C4251: 'GA_AttributeDict::myPrivateTable': class 'UT_ArrayStringMap<GA_AttributeProxy *>' needs to have dll-interface to be used by clients of class 'GA_AttributeDict'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributedict.h(45): note: see declaration of 'UT_ArrayStringMap<GA_AttributeProxy *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_edgegroup.h(457): warning C4251: 'GA_EdgeGroup::myData': class 'UT_IntrusivePtr<GA_EdgeGroup::SharedData>' needs to have dll-interface to be used by clients of class 'GA_EdgeGroup'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_edgegroup.h(457): note: see declaration of 'UT_IntrusivePtr<GA_EdgeGroup::SharedData>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_grouptable.h(277): warning C4251: 'GA_GroupTable::myEntryMap': class 'UT_ArrayStringMap<GA_Group *>' needs to have dll-interface to be used by clients of class 'GA_GroupTable'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_attributedict.h(274): note: see declaration of 'UT_ArrayStringMap<GA_Group *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atinumeric.h(322): warning C4251: 'GA_ATINumeric::myData': class 'GA_PageArray<void,-1,true,false>' needs to have dll-interface to be used by clients of class 'GA_ATINumeric'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atinumeric.h(297): note: see declaration of 'GA_PageArray<void,-1,true,false>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atinumeric.h(154): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atiblob.h(463): warning C4251: 'GA_ATIBlob::myHandles': class 'GA_PageArray<int32,-1,true,false>' needs to have dll-interface to be used by clients of class 'GA_ATIBlob'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atiblob.h(399): note: see declaration of 'GA_PageArray<int32,-1,true,false>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atiblob.h(168): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(410): warning C4251: 'GA_ATIString::myHandles': class 'GA_PageArray<int32,-1,true,false>' needs to have dll-interface to be used by clients of class 'GA_ATIString'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atiblob.h(399): note: see declaration of 'GA_PageArray<int32,-1,true,false>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(413): warning C4251: 'GA_ATIString::myStrings': class 'UT_IndexedHashSet<UT_StringHolder>' needs to have dll-interface to be used by clients of class 'GA_ATIString'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(413): note: see declaration of 'UT_IndexedHashSet<UT_StringHolder>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(108): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(118): warning C4244: 'return': conversion from 'UT_IndexedHashSetItemId' to 'GA_BlobIndex', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(502): warning C4251: 'GA_ATIStringDelayedWriter::myRefCountChanges': class 'UT::ArrayMap<GA_StringIndexType,exint,false,128,UT::MapKeyClearer<Key,T>,std::hash<int>,std::equal_to<Key>>' needs to have dll-interface to be used by clients of class 'GA_ATIStringDelayedWriter'
+          with
+          [
+              Key=GA_StringIndexType,
+              T=exint
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(502): note: see declaration of 'UT::ArrayMap<GA_StringIndexType,exint,false,128,UT::MapKeyClearer<Key,T>,std::hash<int>,std::equal_to<Key>>'
+          with
+          [
+              Key=GA_StringIndexType,
+              T=exint
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(503): warning C4251: 'GA_ATIStringDelayedWriter::myStringToIndex': class 'UT_ArrayStringMap<GA_StringIndexType>' needs to have dll-interface to be used by clients of class 'GA_ATIStringDelayedWriter'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(503): note: see declaration of 'UT_ArrayStringMap<GA_StringIndexType>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_optionentry.h(352): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=exint
+          ]
+          and
+          [
+              T=int
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_optionentry.h(389): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(252): warning C4251: 'UT_Options::iterator::myIterator': class 'UT::ArraySet<std::pair<Key,T>,false,128,Clearer,UT::MapKeyHash<Hash,Key,T>,UT::MapKeyEqual<KeyEqual,Key,T>>::const_iterator' needs to have dll-interface to be used by clients of class 'UT_Options::iterator'
+          with
+          [
+              Key=UT_StringHolder,
+              T=UT_Options::OptionEntryPtr,
+              Clearer=UT::MapKeyClearer<UT_StringHolder,UT_Options::OptionEntryPtr>,
+              Hash=std::hash<UT_StringHolder>,
+              KeyEqual=std::equal_to<UT_StringHolder>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arrayset.h(640): note: see declaration of 'UT::ArraySet<std::pair<Key,T>,false,128,Clearer,UT::MapKeyHash<Hash,Key,T>,UT::MapKeyEqual<KeyEqual,Key,T>>::const_iterator'
+          with
+          [
+              Key=UT_StringHolder,
+              T=UT_Options::OptionEntryPtr,
+              Clearer=UT::MapKeyClearer<UT_StringHolder,UT_Options::OptionEntryPtr>,
+              Hash=std::hash<UT_StringHolder>,
+              KeyEqual=std::equal_to<UT_StringHolder>
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(253): warning C4251: 'UT_Options::iterator::myEnd': class 'UT::ArraySet<std::pair<Key,T>,false,128,Clearer,UT::MapKeyHash<Hash,Key,T>,UT::MapKeyEqual<KeyEqual,Key,T>>::const_iterator' needs to have dll-interface to be used by clients of class 'UT_Options::iterator'
+          with
+          [
+              Key=UT_StringHolder,
+              T=UT_Options::OptionEntryPtr,
+              Clearer=UT::MapKeyClearer<UT_StringHolder,UT_Options::OptionEntryPtr>,
+              Hash=std::hash<UT_StringHolder>,
+              KeyEqual=std::equal_to<UT_StringHolder>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arrayset.h(640): note: see declaration of 'UT::ArraySet<std::pair<Key,T>,false,128,Clearer,UT::MapKeyHash<Hash,Key,T>,UT::MapKeyEqual<KeyEqual,Key,T>>::const_iterator'
+          with
+          [
+              Key=UT_StringHolder,
+              T=UT_Options::OptionEntryPtr,
+              Clearer=UT::MapKeyClearer<UT_StringHolder,UT_Options::OptionEntryPtr>,
+              Hash=std::hash<UT_StringHolder>,
+              KeyEqual=std::equal_to<UT_StringHolder>
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(347): warning C4251: 'UT_Options::ordered_iterator::myKeys': class 'UT_ValArray<UT_StringHolder>' needs to have dll-interface to be used by clients of class 'UT_Options::ordered_iterator'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(314): note: see declaration of 'UT_ValArray<UT_StringHolder>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(348): warning C4251: 'UT_Options::ordered_iterator::myValues': class 'UT_ValArray<const UT_OptionEntry *>' needs to have dll-interface to be used by clients of class 'UT_Options::ordered_iterator'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(348): note: see declaration of 'UT_ValArray<const UT_OptionEntry *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(349): warning C4251: 'UT_Options::ordered_iterator::myOrder': class 'UT_ValArray<int>' needs to have dll-interface to be used by clients of class 'UT_Options::ordered_iterator'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(119): note: see declaration of 'UT_ValArray<int>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(599): warning C4251: 'UT_Options::myMap': class 'UT_ArrayStringMap<UT_Options::OptionEntryPtr>' needs to have dll-interface to be used by clients of class 'UT_Options'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_options.h(47): note: see declaration of 'UT_ArrayStringMap<UT_Options::OptionEntryPtr>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_intrinsicmanager.h(364): warning C4251: 'GA_IntrinsicManager::myTokenToLocalTable': class 'UT_ArrayStringMap<GA_IntrinsicManager::ga_IntrinsicAttribute *>' needs to have dll-interface to be used by clients of class 'GA_IntrinsicManager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_intrinsicmanager.h(364): note: see declaration of 'UT_ArrayStringMap<GA_IntrinsicManager::ga_IntrinsicAttribute *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_intrinsicmanager.h(365): warning C4251: 'GA_IntrinsicManager::myGlobalToLocalTable': class 'UT::ArrayMap<GA_GlobalIntrinsic,int,false,128,UT::MapKeyClearer<Key,T>,std::hash<int>,std::equal_to<Key>>' needs to have dll-interface to be used by clients of class 'GA_IntrinsicManager'
+          with
+          [
+              Key=GA_GlobalIntrinsic,
+              T=int
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_intrinsicmanager.h(365): note: see declaration of 'UT::ArrayMap<GA_GlobalIntrinsic,int,false,128,UT::MapKeyClearer<Key,T>,std::hash<int>,std::equal_to<Key>>'
+          with
+          [
+              Key=GA_GlobalIntrinsic,
+              T=int
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_intrinsicmanager.h(366): warning C4251: 'GA_IntrinsicManager::myAttributes': class 'UT_Array<GA_IntrinsicManager::ga_IntrinsicAttribute *>' needs to have dll-interface to be used by clients of class 'GA_IntrinsicManager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_intrinsicmanager.h(366): note: see declaration of 'UT_Array<GA_IntrinsicManager::ga_IntrinsicAttribute *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_intrinsicmanager.h(53): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_iotable.h(85): warning C4251: 'GA_IOTable::myList': class 'UT_Array<GA_IO *>' needs to have dll-interface to be used by clients of class 'GA_IOTable'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_iotable.h(82): note: see declaration of 'UT_Array<GA_IO *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivefactory.h(205): warning C4251: 'GA_PrimitiveFactory::myList': class 'UT_Array<GA_PrimitiveDefinition *>' needs to have dll-interface to be used by clients of class 'GA_PrimitiveFactory'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivefactory.h(205): note: see declaration of 'UT_Array<GA_PrimitiveDefinition *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivefactory.h(206): warning C4251: 'GA_PrimitiveFactory::myTable': class 'UT_ArrayStringMap<GA_PrimitiveDefinition *>' needs to have dll-interface to be used by clients of class 'GA_PrimitiveFactory'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivefactory.h(206): note: see declaration of 'UT_ArrayStringMap<GA_PrimitiveDefinition *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_sequentialthreadindex.h(40): warning C4251: 'SYS_SequentialThreadIndex::myNextIndex': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'SYS_SequentialThreadIndex'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_spinlock.h(146): warning C4251: 'UT_SpinLockT<RecursiveLock,LockDebug>::mySpinLock': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_SpinLockT<RecursiveLock,LockDebug>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_spinlock.h(151): note: see reference to class template instantiation 'UT_SpinLockT<RecursiveLock,LockDebug>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_spinlock.h(150): warning C4251: 'UT_SpinLockT<RecursiveLock,LockDebug>::myDebug': class 'ut_internal::ut_SpinLockDebugT<LockDebug>' needs to have dll-interface to be used by clients of class 'UT_SpinLockT<RecursiveLock,LockDebug>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_spinlock.h(150): note: see declaration of 'ut_internal::ut_SpinLockDebugT<LockDebug>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_spinlock.h(146): warning C4251: 'UT_SpinLockT<false,false>::mySpinLock': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_SpinLockT<false,false>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_spinlock.h(155): note: see reference to class template instantiation 'UT_SpinLockT<false,false>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_taskscope.h(158): warning C4251: 'UT_TaskScope::theTaskScope': class 'UT_ThreadSpecificValue<const UT_TaskScope *>' needs to have dll-interface to be used by clients of class 'UT_TaskScope'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_taskscope.h(157): note: see declaration of 'UT_ThreadSpecificValue<const UT_TaskScope *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(22): warning C4275: non dll-interface class 'tbb::task' used as base for dll-interface class 'UT_Task'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\tbb\task.h(576): note: see declaration of 'tbb::task'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(21): note: see declaration of 'UT_Task'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(118): warning C4275: non dll-interface class 'tbb::task_list' used as base for dll-interface class 'UT_TaskList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\tbb\task.h(958): note: see declaration of 'tbb::task_list'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(117): note: see declaration of 'UT_TaskList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(160): warning C4251: 'UT_TaskList::myList': class 'UT_ValArray<UT_Task *>' needs to have dll-interface to be used by clients of class 'UT_TaskList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(160): note: see declaration of 'UT_ValArray<UT_Task *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(164): warning C4275: non dll-interface class 'tbb::task_group_context' used as base for dll-interface class 'UT_TaskGroupContext'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\tbb\task.h(319): note: see declaration of 'tbb::task_group_context'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(163): note: see declaration of 'UT_TaskGroupContext'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(197): warning C4275: non dll-interface class 'tbb::task_group' used as base for dll-interface class 'UT_TaskGroup'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\tbb\task_group.h(182): note: see declaration of 'tbb::task_group'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_task.h(196): note: see declaration of 'UT_TaskGroup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_taskarena.h(71): warning C4251: 'UT_TaskArena::theArenaCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_TaskArena'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_taskstate.h(256): warning C4251: 'UT_TaskState::myStatus': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_TaskState'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_taskstate.h(257): warning C4251: 'UT_TaskState::myArenaAndGroupRefCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_TaskState'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivelist.h(340): warning C4251: 'GA_PrimitiveList::myPrimitiveTypes': class 'GA_PageArray<int,1,false,false>' needs to have dll-interface to be used by clients of class 'GA_PrimitiveList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivelist.h(340): note: see declaration of 'GA_PageArray<int,1,false,false>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivelist.h(341): warning C4251: 'GA_PrimitiveList::myVertexLists': class 'GA_PageArray<int64,2,false,false>' needs to have dll-interface to be used by clients of class 'GA_PrimitiveList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivelist.h(341): note: see declaration of 'GA_PageArray<int64,2,false,false>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivelist.h(342): warning C4251: 'GA_PrimitiveList::myHardenExclusive': class 'UT_TaskExclusive<GA_PrimitiveList::HardenPrimitivesFunctor>' needs to have dll-interface to be used by clients of class 'GA_PrimitiveList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_primitivelist.h(342): note: see declaration of 'UT_TaskExclusive<GA_PrimitiveList::HardenPrimitivesFunctor>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_topology.h(485): warning C4251: 'GA_Topology::theStorageLevels': class 'GA_Topology::ga_StorageSwitch' needs to have dll-interface to be used by clients of class 'GA_Topology'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_topology.h(42): note: see declaration of 'GA_Topology::ga_StorageSwitch'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(2356): warning C4251: 'GA_Detail::myHandlePV3': class 'GA_RWHandleT<UT_Vector3F,void>' needs to have dll-interface to be used by clients of class 'GA_Detail'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(1237): note: see declaration of 'GA_RWHandleT<UT_Vector3F,void>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(2361): warning C4251: 'GA_Detail::myPointGroups': class 'GA_ElementGroupTableT<GA_ATTRIB_POINT>' needs to have dll-interface to be used by clients of class 'GA_Detail'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_elementgroup.h(66): note: see declaration of 'GA_ElementGroupTableT<GA_ATTRIB_POINT>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(2362): warning C4251: 'GA_Detail::myVertexGroups': class 'GA_ElementGroupTableT<GA_ATTRIB_VERTEX>' needs to have dll-interface to be used by clients of class 'GA_Detail'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_elementgroup.h(194): note: see declaration of 'GA_ElementGroupTableT<GA_ATTRIB_VERTEX>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(2363): warning C4251: 'GA_Detail::myPrimitiveGroups': class 'GA_ElementGroupTableT<GA_ATTRIB_PRIMITIVE>' needs to have dll-interface to be used by clients of class 'GA_Detail'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_elementgroup.h(157): note: see declaration of 'GA_ElementGroupTableT<GA_ATTRIB_PRIMITIVE>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(215): warning C4244: 'argument': conversion from 'fpreal' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(254): warning C4244: 'argument': conversion from 'fpreal' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(267): warning C4244: 'argument': conversion from 'fpreal' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_primitive.h(348): warning C4251: 'GEO_Primitive::NormalCompAttr::myHandle': class 'GA_RWHandleT<UT_Vector3F,void>' needs to have dll-interface to be used by clients of class 'GEO_Primitive::NormalCompAttr'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(1237): note: see declaration of 'GA_RWHandleT<UT_Vector3F,void>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_breakpointgroup.h(81): warning C4018: '<=': signed/unsigned mismatch
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_color.h(129): warning C4244: '=': conversion from 'fpreal' to 'float', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_hedgeinterface.h(401): warning C4251: 'GEO_DetachedHedgeInterface::myHedgeNextRef': class 'UT_ValArray<exint>' needs to have dll-interface to be used by clients of class 'GEO_DetachedHedgeInterface'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(120): note: see declaration of 'UT_ValArray<exint>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_hedgeinterface.h(402): warning C4251: 'GEO_DetachedHedgeInterface::myPrimPrevRef': class 'UT_ValArray<exint>' needs to have dll-interface to be used by clients of class 'GEO_DetachedHedgeInterface'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(120): note: see declaration of 'UT_ValArray<exint>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_hedgeinterface.h(403): warning C4251: 'GEO_DetachedHedgeInterface::myPrimNextRef': class 'UT_ValArray<exint>' needs to have dll-interface to be used by clients of class 'GEO_DetachedHedgeInterface'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(120): note: see declaration of 'UT_ValArray<exint>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_quickhull.h(63): warning C4251: 'UT_QuickHullT<T>::myPoints': class 'UT_Array<UT_Vector3T<T>>' needs to have dll-interface to be used by clients of class 'UT_QuickHullT<T>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(184): note: see declaration of 'UT_Array<UT_Vector3T<T>>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_quickhull.h(64): note: see reference to class template instantiation 'UT_QuickHullT<T>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_detail.h(1963): warning C4251: 'GU_Detail::myCookSelection': class 'std::shared_ptr<GU_Selection>' needs to have dll-interface to be used by clients of class 'GU_Detail'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<GU_Selection>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gop\gop_manager.h(279): warning C4251: 'GOP_Manager::myGroupList': class 'UT_Array<GOP_AdhocGroup>' needs to have dll-interface to be used by clients of class 'GOP_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\gop\gop_manager.h(279): note: see declaration of 'UT_Array<GOP_AdhocGroup>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_selectionset.h(78): warning C4251: 'GU_SelectionSet::mySelections': class 'std::shared_ptr<GU_Selection>' needs to have dll-interface to be used by clients of class 'GU_SelectionSet'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<GU_Selection>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_bundlereferences.h(115): warning C4251: 'OP_BundleReferences::myBundleToParmsMap': class 'UT_StringMap<OP_BundleRefList *>' needs to have dll-interface to be used by clients of class 'OP_BundleReferences'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_bundlereferences.h(115): note: see declaration of 'UT_StringMap<OP_BundleRefList *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_bundlereferences.h(120): warning C4251: 'OP_BundleReferences::myTagToBundleMap': class 'UT_StringMap<UT_StringHolder>' needs to have dll-interface to be used by clients of class 'OP_BundleReferences'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_bundlereferences.h(120): note: see declaration of 'UT_StringMap<UT_StringHolder>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptions.h(65): warning C4251: 'DEP_ContextOptions::myOptionsAtDefaults': class 'UT_StringSet' needs to have dll-interface to be used by clients of class 'DEP_ContextOptions'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringset.h(45): note: see declaration of 'UT_StringSet'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_context.h(39): warning C4251: 'OP_ContextOptionsWriteScope::myHandle': class 'UT_COWWriteHandle<DEP_ContextOptions>' needs to have dll-interface to be used by clients of class 'OP_ContextOptionsWriteScope'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptionsfwd.h(23): note: see declaration of 'UT_COWWriteHandle<DEP_ContextOptions>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_context.h(159): warning C4251: 'OP_Context::myContextOptions': class 'UT_COWHandle<DEP_ContextOptions>' needs to have dll-interface to be used by clients of class 'OP_Context'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptionsfwd.h(21): note: see declaration of 'UT_COWHandle<DEP_ContextOptions>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_context.h(161): warning C4251: 'OP_Context::myContextOptionsStack': class 'UT_UniquePtr<DEP_ContextOptionsStack,std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'OP_Context'
+          with
+          [
+              T=DEP_ContextOptionsStack
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_context.h(161): note: see declaration of 'UT_UniquePtr<DEP_ContextOptionsStack,std::default_delete<T>>'
+          with
+          [
+              T=DEP_ContextOptionsStack
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_context.h(163): warning C4251: 'OP_Context::myContextOptionDeps': class 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'OP_Context'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptions.h(24): note: see declaration of 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_cache.h(55): warning C4251: 'OP_Cache::myCacheData': class 'UT_Array<op_CacheEntry *>' needs to have dll-interface to be used by clients of class 'OP_Cache'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_cache.h(55): note: see declaration of 'UT_Array<op_CacheEntry *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_micronode.h(335): warning C4251: 'DEP_MicroNode::myExplicitInputsLock': class 'UT_Lockable<tbb::spin_mutex>' needs to have dll-interface to be used by clients of class 'DEP_MicroNode'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tbbspinlock.h(21): note: see declaration of 'UT_Lockable<tbb::spin_mutex>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_micronode.h(336): warning C4251: 'DEP_MicroNode::myExplicitInputs': class 'tbb::concurrent_vector<DEP_MicroNode *,tbb::cache_aligned_allocator<T>>' needs to have dll-interface to be used by clients of class 'DEP_MicroNode'
+          with
+          [
+              T=DEP_MicroNode *
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_micronode.h(302): note: see declaration of 'tbb::concurrent_vector<DEP_MicroNode *,tbb::cache_aligned_allocator<T>>'
+          with
+          [
+              T=DEP_MicroNode *
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_micronode.h(337): warning C4251: 'DEP_MicroNode::myExplicitOutputs': class 'tbb::concurrent_vector<DEP_MicroNode *,tbb::cache_aligned_allocator<T>>' needs to have dll-interface to be used by clients of class 'DEP_MicroNode'
+          with
+          [
+              T=DEP_MicroNode *
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_micronode.h(302): note: see declaration of 'tbb::concurrent_vector<DEP_MicroNode *,tbb::cache_aligned_allocator<T>>'
+          with
+          [
+              T=DEP_MicroNode *
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_micronode.h(340): warning C4251: 'DEP_MicroNode::myContextOptionDepsLock': class 'UT_Lockable<tbb::spin_mutex>' needs to have dll-interface to be used by clients of class 'DEP_MicroNode'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tbbspinlock.h(21): note: see declaration of 'UT_Lockable<tbb::spin_mutex>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_micronode.h(341): warning C4251: 'DEP_MicroNode::myContextOptionDeps': class 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'DEP_MicroNode'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptions.h(24): note: see declaration of 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_datamicronode.h(110): warning C4251: 'OP_DataMicroNode::myLastUsedContextOptions': class 'UT_COWHandle<DEP_ContextOptions>' needs to have dll-interface to be used by clients of class 'OP_DataMicroNode'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptionsfwd.h(21): note: see declaration of 'UT_COWHandle<DEP_ContextOptions>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_datamicronode.h(111): warning C4251: 'OP_DataMicroNode::myLastUsedContextStack': class 'UT_UniquePtr<DEP_ContextOptionsStack,std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'OP_DataMicroNode'
+          with
+          [
+              T=DEP_ContextOptionsStack
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_context.h(161): note: see declaration of 'UT_UniquePtr<DEP_ContextOptionsStack,std::default_delete<T>>'
+          with
+          [
+              T=DEP_ContextOptionsStack
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_datamicronode.h(112): warning C4251: 'OP_DataMicroNode::myLastAllContextOptions': class 'UT_COWReadHandle<DEP_ContextOptions>' needs to have dll-interface to be used by clients of class 'OP_DataMicroNode'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptionsfwd.h(22): note: see declaration of 'UT_COWReadHandle<DEP_ContextOptions>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_output.h(51): warning C4251: 'OP_Output::myOutputs': class 'UT_ValArray<OP_NetworkBoxItem *>' needs to have dll-interface to be used by clients of class 'OP_Output'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_datatypes.h(24): note: see declaration of 'UT_ValArray<OP_NetworkBoxItem *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_unicodeimpl.h(448): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_unicodeimpl.h(521): warning C4018: '<': signed/unsigned mismatch
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_workbuffer.h(439): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_workbuffer.h(613): warning C4244: 'initializing': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_value.h(189): warning C4251: 'OP_Value::myHandlers': class 'UT_ValArray<OP_EventHandler *>' needs to have dll-interface to be used by clients of class 'OP_Value'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_value.h(189): note: see declaration of 'UT_ValArray<OP_EventHandler *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_compressedblockindex.h(24): warning C4251: 'UT_IntrusiveRefCounter<UT_CompressedBlockIndex,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>::myRefCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_IntrusiveRefCounter<UT_CompressedBlockIndex,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>'
+          with
+          [
+              DerivedT=UT_CompressedBlockIndex
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_compressedblockindex.h(73): warning C4251: 'UT_CompressedBlockIndex::myIndex': class 'UT_Array<T>' needs to have dll-interface to be used by clients of class 'UT_CompressedBlockIndex'
+          with
+          [
+              T=exint
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_valarray.h(40): note: see declaration of 'UT_Array<T>'
+          with
+          [
+              T=exint
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_istream.h(489): warning C4251: 'UT_IStream::myBinaryStack': class 'UT_SmallArray<int,16>' needs to have dll-interface to be used by clients of class 'UT_IStream'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_istream.h(489): note: see declaration of 'UT_SmallArray<int,16>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_istream.h(491): warning C4251: 'UT_IStream::myOperationStack': class 'UT_Array<T>' needs to have dll-interface to be used by clients of class 'UT_IStream'
+          with
+          [
+              T=const char *
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_valarray.h(40): note: see declaration of 'UT_Array<T>'
+          with
+          [
+              T=const char *
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_template.h(517): warning C4251: 'PRM_Template::myDefaults': class 'UT_UniquePtr<PRM_Template::PRM_DefaultPtr [],std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'PRM_Template'
+          with
+          [
+              T=PRM_Template::PRM_DefaultPtr []
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_template.h(517): note: see declaration of 'UT_UniquePtr<PRM_Template::PRM_DefaultPtr [],std::default_delete<T>>'
+          with
+          [
+              T=PRM_Template::PRM_DefaultPtr []
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_template.h(521): warning C4251: 'PRM_Template::myCallbackFunc': class 'PRM_Callback' needs to have dll-interface to be used by clients of class 'PRM_Template'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_callback.h(35): note: see declaration of 'PRM_Callback'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_template.h(533): warning C4251: 'PRM_Template::myChannelNames': class 'UT_UniquePtr<UT_StringHolder [],std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'PRM_Template'
+          with
+          [
+              T=UT_StringHolder []
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_template.h(532): note: see declaration of 'UT_UniquePtr<UT_StringHolder [],std::default_delete<T>>'
+          with
+          [
+              T=UT_StringHolder []
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_variant.h(106): warning C4251: 'UT_VariantArray::m_array': class 'std::shared_ptr<UT_VariantArray::container_type>' needs to have dll-interface to be used by clients of class 'UT_VariantArray'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<UT_VariantArray::container_type>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_variant.h(197): warning C4251: 'UT_VariantMap::m_map': class 'std::shared_ptr<UT_VariantMap::container_type>' needs to have dll-interface to be used by clients of class 'UT_VariantMap'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<UT_VariantMap::container_type>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\py\py_result.h(71): warning C4251: 'PY_Result::myIntArray': class 'std::vector<int32,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PY_Result'
+          with
+          [
+              _Ty=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_aiftuple.h(161): note: see declaration of 'std::vector<int32,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\py\py_result.h(72): warning C4251: 'PY_Result::myDoubleArray': class 'std::vector<fpreal64,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PY_Result'
+          with
+          [
+              _Ty=fpreal64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_aiftuple.h(182): note: see declaration of 'std::vector<fpreal64,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=fpreal64
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_eventmanager.h(105): warning C4251: 'CH_EventHandlerHash::myOccurred': class 'UT_Map<CH_Channel *,CH_Collection *,hboost::hash<K>,std::equal_to<K>>' needs to have dll-interface to be used by clients of class 'CH_EventHandlerHash'
+          with
+          [
+              K=CH_Channel *
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_eventmanager.h(105): note: see declaration of 'UT_Map<CH_Channel *,CH_Collection *,hboost::hash<K>,std::equal_to<K>>'
+          with
+          [
+              K=CH_Channel *
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(537): warning C4251: 'PRM_ParmList::myParms': class 'UT_ValArray<PRM_Parm *>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmowner.h(144): note: see declaration of 'UT_ValArray<PRM_Parm *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(550): warning C4251: 'PRM_ParmList::myOpSharedInfo': class 'std::shared_ptr<PRM_OpSharedInfo>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<PRM_OpSharedInfo>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(556): warning C4251: 'PRM_ParmList::mySpareAndMultiParmHashTable': class 'UT_ArrayStringMap<GA_StringIndexType>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(503): note: see declaration of 'UT_ArrayStringMap<GA_StringIndexType>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(557): warning C4251: 'PRM_ParmList::mySpareAndMultiChannelTable': class 'UT_ArrayStringMap<GA_StringIndexType>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(503): note: see declaration of 'UT_ArrayStringMap<GA_StringIndexType>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(563): warning C4251: 'PRM_ParmList::myChannelAliasesTable': class 'UT_ArrayStringMap<GA_StringIndexType>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(503): note: see declaration of 'UT_ArrayStringMap<GA_StringIndexType>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(566): warning C4251: 'PRM_ParmList::myContextOptionDepsLock': class 'UT_Lockable<tbb::spin_mutex>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tbbspinlock.h(21): note: see declaration of 'UT_Lockable<tbb::spin_mutex>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(567): warning C4251: 'PRM_ParmList::myContextOptionDeps': class 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptions.h(24): note: see declaration of 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(568): warning C4251: 'PRM_ParmList::myCookContextOptionDeps': class 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'PRM_ParmList'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptions.h(24): note: see declaration of 'UT_UniquePtr<DEP_ContextOptionDeps,std::default_delete<T>>'
+          with
+          [
+              T=DEP_ContextOptionDeps
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_parmlist.h(103): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tasklock.h(286): warning C4251: 'UT_TaskLockT<true>::myMutex': class 'hboost::mutex' needs to have dll-interface to be used by clients of class 'UT_TaskLockT<true>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\hboost\thread\win32\mutex.hpp(25): note: see declaration of 'hboost::mutex'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tasklock.h(286): warning C4251: 'UT_TaskLockT<true>::myCondition': class 'hboost::condition_variable' needs to have dll-interface to be used by clients of class 'UT_TaskLockT<true>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\hboost\thread\win32\condition_variable.hpp(304): note: see declaration of 'hboost::condition_variable'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tasklock.h(286): warning C4251: 'UT_TaskLockT<true>::myData': struct 'UT_TaskLockT<true>::ut_Data' needs to have dll-interface to be used by clients of class 'UT_TaskLockT<true>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tasklock.h(58): note: see declaration of 'UT_TaskLockT<true>::ut_Data'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tasklock.h(286): warning C4251: 'UT_TaskLockT<true>::myDataStack': class 'UT_Array<UT_TaskLockT<true>::ut_Data>' needs to have dll-interface to be used by clients of class 'UT_TaskLockT<true>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_tasklock.h(73): note: see declaration of 'UT_Array<UT_TaskLockT<true>::ut_Data>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pathsearch.h(232): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pathsearch.h(237): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pathsearch.h(448): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pathsearch.h(475): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_endian.h(279): warning C4244: 'argument': conversion from 'const int32' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_endian.h(280): warning C4244: 'argument': conversion from 'const uint32' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_endian.h(281): warning C4244: 'argument': conversion from 'const int64' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_endian.h(282): warning C4244: 'argument': conversion from 'const uint64' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_endian.h(285): warning C4244: 'argument': conversion from 'const fpreal64' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(2630): warning C4251: 'OP_Node::theVexSrcParmMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_template.h(38): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3658): warning C4251: 'OP_Node::myInputs': class 'UT_ValArray<OP_Input *>' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3658): note: see declaration of 'UT_ValArray<OP_Input *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3660): warning C4251: 'OP_Node::myInputsMap': class 'UT::ArrayMap<Key,T,false,128,Clearer,Hash,KeyEqual>' needs to have dll-interface to be used by clients of class 'OP_Node'
+          with
+          [
+              Key=OP_ConnectorId,
+              T=OP_Input *,
+              Clearer=UT::MapKeyClearer<OP_ConnectorId,OP_Input *>,
+              Hash=std::hash<OP_ConnectorId>,
+              KeyEqual=std::equal_to<OP_ConnectorId>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arraymap.h(782): note: see declaration of 'UT::ArrayMap<Key,T,false,128,Clearer,Hash,KeyEqual>'
+          with
+          [
+              Key=OP_ConnectorId,
+              T=OP_Input *,
+              Clearer=UT::MapKeyClearer<OP_ConnectorId,OP_Input *>,
+              Hash=std::hash<OP_ConnectorId>,
+              KeyEqual=std::equal_to<OP_ConnectorId>
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3662): warning C4251: 'OP_Node::myOutputs': class 'UT_ValArray<OP_Output *>' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3662): note: see declaration of 'UT_ValArray<OP_Output *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3664): warning C4251: 'OP_Node::myOutputsMap': class 'UT::ArrayMap<Key,T,false,128,Clearer,Hash,KeyEqual>' needs to have dll-interface to be used by clients of class 'OP_Node'
+          with
+          [
+              Key=OP_ConnectorId,
+              T=OP_Output *,
+              Clearer=UT::MapKeyClearer<OP_ConnectorId,OP_Output *>,
+              Hash=std::hash<OP_ConnectorId>,
+              KeyEqual=std::equal_to<OP_ConnectorId>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arraymap.h(782): note: see declaration of 'UT::ArrayMap<Key,T,false,128,Clearer,Hash,KeyEqual>'
+          with
+          [
+              Key=OP_ConnectorId,
+              T=OP_Output *,
+              Clearer=UT::MapKeyClearer<OP_ConnectorId,OP_Output *>,
+              Hash=std::hash<OP_ConnectorId>,
+              KeyEqual=std::equal_to<OP_ConnectorId>
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3672): warning C4251: 'OP_Node::myEventMicroNodes': class 'UT_UniquePtr<DEP_MicroNode *[],std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'OP_Node'
+          with
+          [
+              T=DEP_MicroNode *[]
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3672): note: see declaration of 'UT_UniquePtr<DEP_MicroNode *[],std::default_delete<T>>'
+          with
+          [
+              T=DEP_MicroNode *[]
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3682): warning C4251: 'OP_Node::mySourceCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3721): warning C4251: 'OP_Node::myOpReferences': class 'UT_Array<OP_Reference>' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_dependency.h(74): note: see declaration of 'UT_Array<OP_Reference>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3723): warning C4251: 'OP_Node::myOpDependents': class 'OP_DependencyList' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_dependency.h(225): note: see declaration of 'OP_DependencyList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3740): warning C4251: 'OP_Node::myBlindData': class 'UT_StringMap<std::shared_ptr<void>>' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3740): note: see declaration of 'UT_StringMap<std::shared_ptr<void>>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3744): warning C4251: 'OP_Node::myDataBlocks': class 'UT_StringMap<OP_DataBlockPtr>' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3744): note: see declaration of 'UT_StringMap<OP_DataBlockPtr>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(3748): warning C4251: 'OP_Node::myCachedPythonObjects': class 'UT_SymbolMap<PY_OpaqueObject *>' needs to have dll-interface to be used by clients of class 'OP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(186): note: see declaration of 'UT_SymbolMap<PY_OpaqueObject *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(1882): warning C4244: 'return': conversion from 'const exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(2932): warning C4244: 'return': conversion from 'exint' to 'unsigned int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_inputchangehelper.h(129): warning C4251: 'OP_InputChangeHelper::myDuplicateCounts': class 'UT_ValArray<int>' needs to have dll-interface to be used by clients of class 'OP_InputChangeHelper'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(119): note: see declaration of 'UT_ValArray<int>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_dotlist.h(79): warning C4251: 'OP_DotList::myDots': class 'UT_Array<OP_Dot *>' needs to have dll-interface to be used by clients of class 'OP_DotList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_dotlist.h(27): note: see declaration of 'UT_Array<OP_Dot *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_networkbox.h(351): warning C4251: 'OP_NetworkBox::myItems': class 'UT_ValArray<OP_NetworkBoxItem *>' needs to have dll-interface to be used by clients of class 'OP_NetworkBox'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_datatypes.h(24): note: see declaration of 'UT_ValArray<OP_NetworkBoxItem *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(282): warning C4251: 'FS_IndexFile::mySections': class 'UT_ValArray<FS_Section *>' needs to have dll-interface to be used by clients of class 'FS_IndexFile'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(242): note: see declaration of 'UT_ValArray<FS_Section *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(283): warning C4251: 'FS_IndexFile::mySectionTable': class 'UT_ArrayStringMap<FS_Section *>' needs to have dll-interface to be used by clients of class 'FS_IndexFile'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(278): note: see declaration of 'UT_ArrayStringMap<FS_Section *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(284): warning C4251: 'FS_IndexFile::myTempSections': class 'UT_ValArray<FS_Section *>' needs to have dll-interface to be used by clients of class 'FS_IndexFile'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(242): note: see declaration of 'UT_ValArray<FS_Section *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(285): warning C4251: 'FS_IndexFile::myTempSectionTable': class 'UT_ArrayStringMap<FS_Section *>' needs to have dll-interface to be used by clients of class 'FS_IndexFile'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(278): note: see declaration of 'UT_ArrayStringMap<FS_Section *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\fs\fs_indexfile.h(138): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(138): warning C4251: 'PRM_ScriptPage::myParms': class 'UT_ValArray<PRM_ScriptParm *>' needs to have dll-interface to be used by clients of class 'PRM_ScriptPage'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(54): note: see declaration of 'UT_ValArray<PRM_ScriptParm *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(139): warning C4251: 'PRM_ScriptPage::myObsoleteParms': class 'UT_ValArray<PRM_ScriptParm *>' needs to have dll-interface to be used by clients of class 'PRM_ScriptPage'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(54): note: see declaration of 'UT_ValArray<PRM_ScriptParm *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(61): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_otldefinition.h(208): warning C4251: 'OP_OTLDefinition::theInternalPath': class 'UT_StringLit' needs to have dll-interface to be used by clients of class 'OP_OTLDefinition'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_stringholder.h(56): note: see declaration of 'UT_StringLit'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(788): warning C4251: 'OP_Operator::myInputReferences': class 'UT_Array<bool>' needs to have dll-interface to be used by clients of class 'OP_Operator'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(534): note: see declaration of 'UT_Array<bool>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(806): warning C4251: 'OP_Operator::myOverrideLayoutParmScriptPage': class 'std::shared_ptr<PRM_ScriptPage>' needs to have dll-interface to be used by clients of class 'OP_Operator'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<PRM_ScriptPage>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(871): warning C4251: 'OP_Operator::myUpdateTemplatesSinks': class 'UT_ValArray<OP_UpdateTemplatesSink *>' needs to have dll-interface to be used by clients of class 'OP_Operator'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(871): note: see declaration of 'UT_ValArray<OP_UpdateTemplatesSink *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(931): warning C4251: 'OP_UpdateTemplatesSink::myOperators': class 'UT_ValArray<OP_Operator *>' needs to have dll-interface to be used by clients of class 'OP_UpdateTemplatesSink'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(89): note: see declaration of 'UT_ValArray<OP_Operator *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operator.h(926): warning C4244: 'initializing': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1008): warning C4251: 'OP_Network::mySymbols': class 'UT_SymbolMap<OP_Node *>' needs to have dll-interface to be used by clients of class 'OP_Network'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1008): note: see declaration of 'UT_SymbolMap<OP_Node *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1010): warning C4251: 'OP_Network::myProxyRefNodes': class 'UT_ValArray<OP_Network *>' needs to have dll-interface to be used by clients of class 'OP_Network'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1010): note: see declaration of 'UT_ValArray<OP_Network *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1012): warning C4251: 'OP_Network::myParentInputs': class 'UT_ValArray<OP_SubnetIndirectInput *>' needs to have dll-interface to be used by clients of class 'OP_Network'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1012): note: see declaration of 'UT_ValArray<OP_SubnetIndirectInput *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1023): warning C4251: 'OP_Network::myEditableSubNodes': class 'UT_SortedSet<int,std::less<int>>' needs to have dll-interface to be used by clients of class 'OP_Network'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(1023): note: see declaration of 'UT_SortedSet<int,std::less<int>>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_network.h(609): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(861): warning C4251: 'SOP_Node::theFirstInput': class 'PRM_SpareData' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(26): note: see declaration of 'PRM_SpareData'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(862): warning C4251: 'SOP_Node::theSecondInput': class 'PRM_SpareData' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(26): note: see declaration of 'PRM_SpareData'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(863): warning C4251: 'SOP_Node::theThirdInput': class 'PRM_SpareData' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(26): note: see declaration of 'PRM_SpareData'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(864): warning C4251: 'SOP_Node::theFourthInput': class 'PRM_SpareData' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(26): note: see declaration of 'PRM_SpareData'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(867): warning C4251: 'SOP_Node::theSecondElseFirstInput': class 'PRM_SpareData' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_scriptpage.h(26): note: see declaration of 'PRM_SpareData'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1162): warning C4251: 'SOP_Node::allGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1163): warning C4251: 'SOP_Node::groupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1164): warning C4251: 'SOP_Node::primGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1165): warning C4251: 'SOP_Node::pointGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1166): warning C4251: 'SOP_Node::edgeGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1167): warning C4251: 'SOP_Node::edgePointGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1168): warning C4251: 'SOP_Node::breakpointGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1169): warning C4251: 'SOP_Node::primNamedGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1170): warning C4251: 'SOP_Node::pointNamedGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1171): warning C4251: 'SOP_Node::edgeNamedGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1172): warning C4251: 'SOP_Node::vertexNamedGroupMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1173): warning C4251: 'SOP_Node::namedPrimsMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1174): warning C4251: 'SOP_Node::namedPrimsGlobMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1175): warning C4251: 'SOP_Node::namedVolumesMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1176): warning C4251: 'SOP_Node::namedVolumesGlobMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1178): warning C4251: 'SOP_Node::allAttribMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1179): warning C4251: 'SOP_Node::detailAttribMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1180): warning C4251: 'SOP_Node::primAttribMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1181): warning C4251: 'SOP_Node::pointAttribMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1182): warning C4251: 'SOP_Node::vertexAttribMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1184): warning C4251: 'SOP_Node::allTextureCoordMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1185): warning C4251: 'SOP_Node::vertexTextureCoordMenu': class 'PRM_ChoiceList' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\prm\prm_shared.h(46): note: see declaration of 'PRM_ChoiceList'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1700): warning C4251: 'SOP_Node::myInputGeoHandles': class 'UT_ValArray<GU_DetailHandle *>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1700): note: see declaration of 'UT_ValArray<GU_DetailHandle *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1723): warning C4251: 'SOP_Node::myInstancingOps': class 'UT_Set<int,hboost::hash<int>,std::equal_to<Key>>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+          with
+          [
+              Key=GA_StringIndexType
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1723): note: see declaration of 'UT_Set<int,hboost::hash<int>,std::equal_to<Key>>'
+          with
+          [
+              Key=GA_StringIndexType
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1735): warning C4251: 'SOP_Node::myLocalVarTable': class 'UT_SymbolMap<sopVarInfo *>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1735): note: see declaration of 'UT_SymbolMap<sopVarInfo *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1736): warning C4251: 'SOP_Node::myLocalVarArray': class 'UT_ValArray<sopVarInfo *>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1736): note: see declaration of 'UT_ValArray<sopVarInfo *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1753): warning C4251: 'SOP_Node::myFootprintSelectionSet': class 'std::shared_ptr<GU_SelectionSet>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<GU_SelectionSet>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1757): warning C4251: 'SOP_Node::mySelectionSetOverride': class 'std::shared_ptr<GU_SelectionSet>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1259): note: see declaration of 'std::shared_ptr<GU_SelectionSet>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1777): warning C4251: 'SOP_Node::myAttribCache': class 'UT_Array<sop_attribRef>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1777): note: see declaration of 'UT_Array<sop_attribRef>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1783): warning C4251: 'SOP_Node::myAttributeEvaluatorCache': class 'UT_StringMap<sop_AttributeEvaluator *>' needs to have dll-interface to be used by clients of class 'SOP_Node'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1783): note: see declaration of 'UT_StringMap<sop_AttributeEvaluator *>'
+e:\cis660\particle2\hlsystem\sop_sparticle.h(83): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ts\ts_ray.h(34): warning C4251: 'TS_Ray::ourRaySerial': class 'UT_ThreadSpecificValue<int>' needs to have dll-interface to be used by clients of class 'TS_Ray'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\expr\ex_error.h(41): note: see declaration of 'UT_ThreadSpecificValue<int>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ts\ts_expression.h(78): warning C4251: 'UT_IntrusiveRefCounter<TS_MetaExpression,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>::myRefCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_IntrusiveRefCounter<TS_MetaExpression,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>'
+          with
+          [
+              DerivedT=TS_MetaExpression
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(79): note: see declaration of 'SYS_AtomicInt<int32>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ts\ts_expression.h(234): warning C4251: 'TS_MetaOp::myArray': class 'UT_Array<TS_MetaExpressionPtr>' needs to have dll-interface to be used by clients of class 'TS_MetaOp'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ts\ts_expression.h(46): note: see declaration of 'UT_Array<TS_MetaExpressionPtr>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(112): warning C4251: 'GU_RaySerial::myList': class 'UT_ValArray<int>' needs to have dll-interface to be used by clients of class 'GU_RaySerial'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(119): note: see declaration of 'UT_ValArray<int>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(124): warning C4251: 'GU_RayInfoHit::prim': class 'GA_PrimitiveP_T<const GEO_Primitive,const GEO_Detail>' needs to have dll-interface to be used by clients of class 'GU_RayInfoHit'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_primitivep.h(18): note: see declaration of 'GA_PrimitiveP_T<const GEO_Primitive,const GEO_Detail>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(203): warning C4251: 'GU_RayInfo::myPrim': class 'GA_PrimitiveP_T<const GEO_Primitive,const GEO_Detail>' needs to have dll-interface to be used by clients of class 'GU_RayInfo'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_primitivep.h(18): note: see declaration of 'GA_PrimitiveP_T<const GEO_Primitive,const GEO_Detail>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(338): warning C4251: 'GU_MinInfo::prim': class 'GA_PrimitiveP_T<const GEO_Primitive,const GEO_Detail>' needs to have dll-interface to be used by clients of class 'GU_MinInfo'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_primitivep.h(18): note: see declaration of 'GA_PrimitiveP_T<const GEO_Primitive,const GEO_Detail>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(515): warning C4251: 'GU_RayIntersect::mySerialList': class 'UT_ThreadSpecificValue<GU_RaySerial *>' needs to have dll-interface to be used by clients of class 'GU_RayIntersect'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(515): note: see declaration of 'UT_ThreadSpecificValue<GU_RaySerial *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(524): warning C4251: 'GU_RayIntersect::myBVH': class 'UT_UniquePtr<GU::BVH,std::default_delete<T>>' needs to have dll-interface to be used by clients of class 'GU_RayIntersect'
+          with
+          [
+              T=GU::BVH
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(524): note: see declaration of 'UT_UniquePtr<GU::BVH,std::default_delete<T>>'
+          with
+          [
+              T=GU::BVH
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\gu\gu_rayintersect.h(527): warning C4251: 'GU_RayIntersect::myMetaExpr': class 'UT_IntrusivePtr<TS_MetaExpression>' needs to have dll-interface to be used by clients of class 'GU_RayIntersect'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ts\ts_expression.h(45): note: see declaration of 'UT_IntrusivePtr<TS_MetaExpression>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_primpart.h(279): warning C4251: 'GEO_PrimParticle::myDeadList': class 'UT_ValArray<exint>' needs to have dll-interface to be used by clients of class 'GEO_PrimParticle'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(120): note: see declaration of 'UT_ValArray<exint>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\geo\geo_primpart.h(187): warning C4244: 'return': conversion from 'FromType' to 'int', possible loss of data
+          with
+          [
+              FromType=GA_Size
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_source.h(97): warning C4251: 'CMD_Source::myUnfinishedCommandsWaterlines': class 'UT_ValArray<int>' needs to have dll-interface to be used by clients of class 'CMD_Source'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vectortypes.h(119): note: see declaration of 'UT_ValArray<int>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_symbollist.h(133): warning C4251: 'CMD_SymbolList::myTable': class 'UT_StringMap<CMD_SymbolEntry>' needs to have dll-interface to be used by clients of class 'CMD_SymbolList'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_symbollist.h(123): note: see declaration of 'UT_StringMap<CMD_SymbolEntry>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_evalcontextfwd.h(76): warning C4251: 'CH_EvalContext::myContextOptions': class 'UT_COWReadHandle<DEP_ContextOptions>' needs to have dll-interface to be used by clients of class 'CH_EvalContext'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptionsfwd.h(22): note: see declaration of 'UT_COWReadHandle<DEP_ContextOptions>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(367): warning C4251: 'CH_ScopedChannels::myTable': class 'UT_Map<CH_ChannelRef,unsigned int,hboost::hash<K>,std::equal_to<K>>' needs to have dll-interface to be used by clients of class 'CH_ScopedChannels'
+          with
+          [
+              K=CH_ChannelRef
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_channelref.h(153): note: see declaration of 'UT_Map<CH_ChannelRef,unsigned int,hboost::hash<K>,std::equal_to<K>>'
+          with
+          [
+              K=CH_ChannelRef
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(368): warning C4251: 'CH_ScopedChannels::myTableDisplayed': class 'UT_Map<CH_ChannelRef,unsigned int,hboost::hash<K>,std::equal_to<K>>' needs to have dll-interface to be used by clients of class 'CH_ScopedChannels'
+          with
+          [
+              K=CH_ChannelRef
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_channelref.h(153): note: see declaration of 'UT_Map<CH_ChannelRef,unsigned int,hboost::hash<K>,std::equal_to<K>>'
+          with
+          [
+              K=CH_ChannelRef
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(369): warning C4251: 'CH_ScopedChannels::mySorted': class 'UT_ValArray<CH_Channel *>' needs to have dll-interface to be used by clients of class 'CH_ScopedChannels'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_types.h(27): note: see declaration of 'UT_ValArray<CH_Channel *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(376): warning C4251: 'CH_ScopedChannels::myFiltered': class 'UT_ValArray<CH_Channel *>' needs to have dll-interface to be used by clients of class 'CH_ScopedChannels'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_types.h(27): note: see declaration of 'UT_ValArray<CH_Channel *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(389): warning C4251: 'CH_ScopedChannels::myDependentFilters': class 'UT_Array<CH_FilterChanged *>' needs to have dll-interface to be used by clients of class 'CH_ScopedChannels'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(389): note: see declaration of 'UT_Array<CH_FilterChanged *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1496): warning C4251: 'CH_Manager::myEvalContext': class 'UT_ThreadSpecificValue<CH_EvalContext>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1496): note: see declaration of 'UT_ThreadSpecificValue<CH_EvalContext>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1499): warning C4251: 'CH_Manager::myDefaultContextOptions': class 'UT_COWHandle<DEP_ContextOptions>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptionsfwd.h(21): note: see declaration of 'UT_COWHandle<DEP_ContextOptions>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1500): warning C4251: 'CH_Manager::myDefaultContextOptionMicroNodes': class 'UT_StringMap<DEP_MicroNode *>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1500): note: see declaration of 'UT_StringMap<DEP_MicroNode *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1501): warning C4251: 'CH_Manager::myDefaultContextOptionUIs': class 'UT_StringMap<UT_StringHolder>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_bundlereferences.h(120): note: see declaration of 'UT_StringMap<UT_StringHolder>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1506): warning C4251: 'CH_Manager::myTimeGroups': class 'UT_ValArray<CH_TimeGroup *>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1506): note: see declaration of 'UT_ValArray<CH_TimeGroup *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1524): warning C4251: 'CH_Manager::myGlobalParams': class 'UT_Map<CH_Manager::chParamKey,chParamData *,CH_Manager::chParamKey::Hasher,std::equal_to<K>>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+          with
+          [
+              K=CH_Manager::chParamKey
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1524): note: see declaration of 'UT_Map<CH_Manager::chParamKey,chParamData *,CH_Manager::chParamKey::Hasher,std::equal_to<K>>'
+          with
+          [
+              K=CH_Manager::chParamKey
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1568): warning C4251: 'CH_Manager::myPinnedScopedChannels': class 'UT_Array<CH_ScopedChannels *>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1568): note: see declaration of 'UT_Array<CH_ScopedChannels *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1570): warning C4251: 'CH_Manager::myPendingChannelsTable': class 'UT_Set<CH_Channel *,hboost::hash<K>,std::equal_to<K>>' needs to have dll-interface to be used by clients of class 'CH_Manager'
+          with
+          [
+              K=CH_Channel *
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1570): note: see declaration of 'UT_Set<CH_Channel *,hboost::hash<K>,std::equal_to<K>>'
+          with
+          [
+              K=CH_Channel *
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(939): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ch\ch_manager.h(1637): warning C4251: 'CH_AutoEvaluateTime::myContextOptions': class 'UT_COWReadHandle<DEP_ContextOptions>' needs to have dll-interface to be used by clients of class 'CH_AutoEvaluateTime'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\dep\dep_contextoptionsfwd.h(22): note: see declaration of 'UT_COWReadHandle<DEP_ContextOptions>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(536): warning C4251: 'CMD_Manager::myPromptStack': class 'UT_Array<char *>' needs to have dll-interface to be used by clients of class 'CMD_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(56): note: see declaration of 'UT_Array<char *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(540): warning C4251: 'CMD_Manager::myExactList': class 'UT_SymbolMap<CMD_Command *>' needs to have dll-interface to be used by clients of class 'CMD_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(540): note: see declaration of 'UT_SymbolMap<CMD_Command *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(542): warning C4251: 'CMD_Manager::mySourceStack': class 'UT_Array<CMD_Source *>' needs to have dll-interface to be used by clients of class 'CMD_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(55): note: see declaration of 'UT_Array<CMD_Source *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(544): warning C4251: 'CMD_Manager::myEnvironmentOverridableGlobals': class 'UT_StringSet' needs to have dll-interface to be used by clients of class 'CMD_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pathsearch.h(49): note: see declaration of 'UT_StringSet'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(548): warning C4251: 'CMD_Manager::myStandardOuts': class 'UT_ValArray<std::ostream *>' needs to have dll-interface to be used by clients of class 'CMD_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(548): note: see declaration of 'UT_ValArray<std::ostream *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(549): warning C4251: 'CMD_Manager::myStandardErrs': class 'UT_ValArray<std::ostream *>' needs to have dll-interface to be used by clients of class 'CMD_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(548): note: see declaration of 'UT_ValArray<std::ostream *>'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(584): warning C4251: 'CMD_Manager::myObsoleteCommands': class 'UT_StringSet' needs to have dll-interface to be used by clients of class 'CMD_Manager'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pathsearch.h(49): note: see declaration of 'UT_StringSet'
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(198): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(261): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_otlmanager.h(705): warning C4244: 'initializing': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operatortable.h(386): warning C4244: 'initializing': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_director.h(298): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+e:\cis660\particle2\hlsystem\sop_sparticle.c(155): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+e:\cis660\particle2\hlsystem\sop_sparticle.c(219): warning C4244: 'initializing': conversion from 'fpreal' to 'float', possible loss of data
+e:\cis660\particle2\hlsystem\sop_sparticle.c(275): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+e:\cis660\particle2\hlsystem\sop_sparticle.c(284): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+e:\cis660\particle2\hlsystem\sop_sparticle.c(288): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\cis660\particle2\hlsystem\sop_sparticle.c(320): warning C4244: 'argument': conversion from 'fpreal' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arrayset.h(1090): warning C4018: '>': signed/unsigned mismatch
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arrayset.h(1034): note: while compiling class template member function 'UT::ArraySet<UT_StringHolder,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::iterator_t<false> UT::ArraySet<Key,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::erase(UT::ArraySet<Key,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::iterator_t<false>)'
+          with
+          [
+              Key=UT_StringHolder
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arraystringset.h(57): note: see reference to function template instantiation 'UT::ArraySet<UT_StringHolder,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::iterator_t<false> UT::ArraySet<Key,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::erase(UT::ArraySet<Key,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::iterator_t<false>)' being compiled
+          with
+          [
+              Key=UT_StringHolder
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arraystringset.h(46): note: see reference to class template instantiation 'UT::ArraySet<UT_StringHolder,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>' being compiled
+          with
+          [
+              Key=UT_StringHolder
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmapt.h(243): warning C4244: 'return': conversion from 'exint' to 'UT_IndexedHashMapItemId', possible loss of data
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashmapt.h(243): note: while compiling class template member function 'UT_IndexedHashMapItemId UT_IndexedHashMapT<GA_BlobContainer::MapKey,GA_BlobContainer::MapItem,GA_BlobContainer::MapAlloc>::findId(const KEY &) const'
+          with
+          [
+              KEY=GA_BlobContainer::MapKey
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_blobcontainer.h(151): note: see reference to function template instantiation 'UT_IndexedHashMapItemId UT_IndexedHashMapT<GA_BlobContainer::MapKey,GA_BlobContainer::MapItem,GA_BlobContainer::MapAlloc>::findId(const KEY &) const' being compiled
+          with
+          [
+              KEY=GA_BlobContainer::MapKey
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_blobcontainer.h(312): note: see reference to class template instantiation 'UT_IndexedHashMapT<GA_BlobContainer::MapKey,GA_BlobContainer::MapItem,GA_BlobContainer::MapAlloc>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_offsetlist.h(459): warning C4251: 'GA_ListTypeRef<GA_Size,GA_Offset,exint>::ListTypeData::myRefCount': class 'SYS_AtomicInt<int64>' needs to have dll-interface to be used by clients of class 'GA_ListTypeRef<GA_Size,GA_Offset,exint>::ListTypeData'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_atomicint.h(80): note: see declaration of 'SYS_AtomicInt<int64>'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_offsetlist.h(1177): note: see reference to class template instantiation 'GA_ListTypeRef<GA_Size,GA_Offset,exint>::ListTypeData' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_offsetlist.h(1169): note: while compiling class template member function 'void GA_ListType<FromType,GA_Offset,INT_TYPE>::setTrivial(ToType,GA_Size)'
+          with
+          [
+              FromType=GA_Size,
+              INT_TYPE=exint,
+              ToType=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_indexmap.h(657): note: see reference to function template instantiation 'void GA_ListType<FromType,GA_Offset,INT_TYPE>::setTrivial(ToType,GA_Size)' being compiled
+          with
+          [
+              FromType=GA_Size,
+              INT_TYPE=exint,
+              ToType=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_offsetlist.h(1523): note: see reference to class template instantiation 'GA_ListType<FromType,GA_Offset,INT_TYPE>' being compiled
+          with
+          [
+              FromType=GA_Size,
+              INT_TYPE=exint
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_elementgrouporder.h(142): note: see reference to class template instantiation 'GA_OffsetListType<GA_Size,exint>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashset.h(401): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=int64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashset.h(401): note: while compiling class template member function 'int UT_IndexedHashSet<UT_StringHolder>::getListSize(void) const'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_indexedhashset.h(90): note: see reference to function template instantiation 'int UT_IndexedHashSet<UT_StringHolder>::getListSize(void) const' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atistring.h(413): note: see reference to class template instantiation 'UT_IndexedHashSet<UT_StringHolder>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(202): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(1118): note: see reference to function template instantiation 'UT_Matrix4T<fpreal32> &UT_Matrix4T<fpreal32>::operator =<fpreal>(const UT_Matrix4T<fpreal> &)' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_node.h(1118): note: see reference to function template instantiation 'UT_Matrix4T<fpreal32> &UT_Matrix4T<fpreal32>::operator =<fpreal>(const UT_Matrix4T<fpreal> &)' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(202): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(203): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(203): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(204): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(204): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(205): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(205): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(206): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(206): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(207): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(207): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(208): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(208): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(209): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_matrix4.h(209): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(609): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_manager.h(216): note: see reference to function template instantiation 'bool CMD_Manager::getVariableValueByName<UT_String>(const char *,T &)' being compiled
+          with
+          [
+              T=UT_String
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2235): warning C4308: negative integral constant converted to unsigned type
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2230): note: while compiling class template member function 'bool UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::PageTableEntry::isRefd(exint) const'
+          with
+          [
+              DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3331): note: see reference to function template instantiation 'bool UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::PageTableEntry::isRefd(exint) const' being compiled
+          with
+          [
+              DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(461): note: see reference to class template instantiation 'UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::PageTableEntry' being compiled
+          with
+          [
+              DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(449): note: while compiling class template member function 'float UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::operator ()(IDX_T,exint) const'
+          with
+          [
+              DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(495): note: see reference to function template instantiation 'float UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::operator ()(IDX_T,exint) const' being compiled
+          with
+          [
+              DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_pagearray.h(99): note: see reference to class template instantiation 'UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>' being compiled
+          with
+          [
+              DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(672): note: see reference to class template instantiation 'GA_PageArray<float,-1,true,false>' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(664): note: while compiling class template member function 'void GA_RWHandleT<fpreal32,void>::set(GA_Offset,int,T) const'
+          with
+          [
+              T=fpreal32
+          ]
+  e:\cis660\particle2\hlsystem\sop_sparticle.c(272): note: see reference to function template instantiation 'void GA_RWHandleT<fpreal32,void>::set(GA_Offset,int,T) const' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  e:\cis660\particle2\hlsystem\sop_sparticle.h(105): note: see reference to class template instantiation 'GA_RWHandleT<fpreal32,void>' being compiled
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2235): warning C4307: '*': integral constant overflow
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1895): warning C4244: 'argument': conversion from 'SRC_DATA_T' to 'fpreal32', possible loss of data
+          with
+          [
+              SRC_DATA_T=int64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              SRC_DATA_T=int64,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              SRC_DATA_T=int64,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(630): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::op<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              SRC_DATA_T=int64,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(630): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::op<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              SRC_DATA_T=int64,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(614): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              SRC_DATA_T=int64,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(614): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              SRC_DATA_T=int64,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atitopology.h(145): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<int64>(IDX_T,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=int64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atitopology.h(145): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<int64>(IDX_T,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=void,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=int64
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<T,3,false>::UT_FixedVector<double,false>(const UT_FixedVector<double,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<T,3,false>::UT_FixedVector<double,false>(const UT_FixedVector<double,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,3,true,false,10,GA_Offset>::convertVectorStorage<DEST_DATA_T,double,3,false>(const UT_FixedVector<double,3,false> &)' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,3,true,false,10,GA_Offset>::convertVectorStorage<DEST_DATA_T,double,3,false>(const UT_FixedVector<double,3,false> &)' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,3,true,false,10,GA_Offset>::getVector::<lambda_e069112b52bcc1d595038aa2f5fc47be>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(516): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<DATA_T,3,true,false,10,GA_Offset>::getVector::<lambda_e069112b52bcc1d595038aa2f5fc47be>>(FUNCTOR)' being compiled
+          with
+          [
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              FUNCTOR=UT_PageArray<UT_StorageNum<fpreal32>::SecondGuess,3,true,false,10,GA_Offset>::getVector::<lambda_e069112b52bcc1d595038aa2f5fc47be>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(207): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,3,true,false,10,GA_Offset>::getVector<float,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(207): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,3,true,false,10,GA_Offset>::getVector<float,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(205): note: while compiling class template member function 'T GA_ROHandleT<T,void>::getNonInlinePart(GA_Offset) const'
+          with
+          [
+              T=UT_Vector3F
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(201): note: see reference to function template instantiation 'T GA_ROHandleT<T,void>::getNonInlinePart(GA_Offset) const' being compiled
+          with
+          [
+              T=UT_Vector3F
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(848): warning C4244: '=': conversion from 'const T' to 'signed char', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1914): note: see reference to function template instantiation 'void UT_PageArray<int8,-1,true,false,10,IDX_T>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1914): note: see reference to function template instantiation 'void UT_PageArray<int8,-1,true,false,10,IDX_T>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(741): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVectorUnknownType<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=void,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(741): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVectorUnknownType<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=void,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVector::<lambda_e0058f1310872765473bfbca46c15b52>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              DATA_T=void
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(742): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVector::<lambda_e0058f1310872765473bfbca46c15b52>>(FUNCTOR)' being compiled
+          with
+          [
+              DATA_T=void,
+              FUNCTOR=UT_PageArray<void,-1,true,false,10,GA_Offset>::opVector::<lambda_e0058f1310872765473bfbca46c15b52>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(726): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=void,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(726): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=void,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(357): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::addVector<T,3,false>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=void,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(357): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::addVector<T,3,false>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=void,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(348): note: while compiling class template member function 'void GA_RWHandleT<UT_Vector3F,void>::add(GA_Offset,const T &) const'
+          with
+          [
+              T=UT_Vector3F
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_detail.h(223): note: see reference to function template instantiation 'void GA_RWHandleT<UT_Vector3F,void>::add(GA_Offset,const T &) const' being compiled
+          with
+          [
+              T=UT_Vector3F
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(855): warning C4244: '+=': conversion from 'const T' to 'signed char', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(848): warning C4244: '=': conversion from 'const T' to 'short', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1916): note: see reference to function template instantiation 'void UT_PageArray<int16,-1,true,false,10,IDX_T>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1916): note: see reference to function template instantiation 'void UT_PageArray<int16,-1,true,false,10,IDX_T>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(855): warning C4244: '+=': conversion from 'const T' to 'short', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(848): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1918): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=int32,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1918): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=int32,
+              T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(855): warning C4244: '+=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(848): warning C4244: '=': conversion from 'const T' to '__int64', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1920): note: see reference to function template instantiation 'void UT_PageArray<int64,-1,true,false,10,IDX_T>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1920): note: see reference to function template instantiation 'void UT_PageArray<int64,-1,true,false,10,IDX_T>::opVector<1,T,3>(IDX_T,const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(855): warning C4244: '+=': conversion from 'const T' to '__int64', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1895): warning C4244: 'argument': conversion from 'SRC_DATA_T' to 'fpreal32', possible loss of data
+          with
+          [
+              SRC_DATA_T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=int,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=int,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1891): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,int32>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=int,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1891): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,int32>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=int,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=float,
+              SRC_DATA_T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=float,
+              SRC_DATA_T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(630): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::op<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=float,
+              SRC_DATA_T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(630): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::op<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=float,
+              SRC_DATA_T=fpreal32,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(670): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=float,
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(670): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=float,
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1895): warning C4244: 'argument': conversion from 'SRC_DATA_T' to 'fpreal32', possible loss of data
+          with
+          [
+              SRC_DATA_T=fpreal64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=fpreal64,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=fpreal64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=fpreal64,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=fpreal64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1899): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,fpreal64>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=fpreal64,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=fpreal64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1899): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,fpreal64>(IDX_T,exint,SRC_DATA_T)' being compiled
+          with
+          [
+              DATA_T=fpreal64,
+              IDX_T=GA_Offset,
+              SRC_DATA_T=fpreal64
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2031): warning C4244: '=': conversion from 'const double' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(532): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVectorMismatchedSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(532): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVectorMismatchedSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_08ff808a08ccbaf63d67300ecb1f67ad>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(533): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_08ff808a08ccbaf63d67300ecb1f67ad>>(FUNCTOR)' being compiled
+          with
+          [
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              FUNCTOR=UT_PageArray<UT_StorageNum<fpreal32>::SecondGuess,-1,true,false,10,GA_Offset>::getVector::<lambda_08ff808a08ccbaf63d67300ecb1f67ad>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1943): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1943): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=UT_StorageNum<fpreal32>::SecondGuess,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(507): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVectorUnknownType<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=void,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(507): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVectorUnknownType<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=void,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_503fd9de750da0e3cd3fd240722cc9f3>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              DATA_T=void
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(508): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_503fd9de750da0e3cd3fd240722cc9f3>>(FUNCTOR)' being compiled
+          with
+          [
+              DATA_T=void,
+              FUNCTOR=UT_PageArray<void,-1,true,false,10,GA_Offset>::getVector::<lambda_503fd9de750da0e3cd3fd240722cc9f3>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(208): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector<float,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=void,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(208): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector<float,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=void,
+              IDX_T=GA_Offset
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2031): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(532): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVectorMismatchedSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=int32,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(532): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVectorMismatchedSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=int32,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_9c35edc4cc76dc011cb58ea30c12ca37>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              DATA_T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(533): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_9c35edc4cc76dc011cb58ea30c12ca37>>(FUNCTOR)' being compiled
+          with
+          [
+              DATA_T=int32,
+              FUNCTOR=UT_PageArray<int32,-1,true,false,10,GA_Offset>::getVector::<lambda_9c35edc4cc76dc011cb58ea30c12ca37>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1955): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=int32,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1955): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=int32,
+              DEST_DATA_T=float,
+              IDX_T=GA_Offset
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2031): warning C4244: '=': conversion from 'const __int64' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(532): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::getVectorMismatchedSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(532): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::getVectorMismatchedSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<int64,-1,true,false,10,IDX_T>::getVector::<lambda_58aa448cfcc289602d20a51e99083b6d>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(533): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<int64,-1,true,false,10,IDX_T>::getVector::<lambda_58aa448cfcc289602d20a51e99083b6d>>(FUNCTOR)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              FUNCTOR=UT_PageArray<int64,-1,true,false,10,GA_Offset>::getVector::<lambda_58aa448cfcc289602d20a51e99083b6d>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1957): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1957): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+          and
+          [
+              T=signed char
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<signed char,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<signed char,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<signed char,3,false> UT_PageArray<int8,-1,true,false,10,IDX_T>::convertVectorStorage<signed char,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<signed char,3,false> UT_PageArray<int8,-1,true,false,10,IDX_T>::convertVectorStorage<signed char,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+          and
+          [
+              T=short
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<short,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<short,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<short,3,false> UT_PageArray<int16,-1,true,false,10,IDX_T>::convertVectorStorage<short,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<short,3,false> UT_PageArray<int16,-1,true,false,10,IDX_T>::convertVectorStorage<short,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+          and
+          [
+              T=int
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<int,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<int,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<int,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::convertVectorStorage<int,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=int32,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<int,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::convertVectorStorage<int,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              DATA_T=int32,
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+          and
+          [
+              T=__int64
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<__int64,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<__int64,3,false>::UT_FixedVector<T,false>(const UT_FixedVector<T,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<__int64,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::convertVectorStorage<__int64,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(761): note: see reference to function template instantiation 'UT_FixedVector<__int64,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::convertVectorStorage<__int64,T,3,false>(const UT_FixedVector<T,3,false> &)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<T,3,false>::UT_FixedVector<int,false>(const UT_FixedVector<int,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<T,3,false>::UT_FixedVector<int,false>(const UT_FixedVector<int,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::convertVectorStorage<DEST_DATA_T,int,3,false>(const UT_FixedVector<int,3,false> &)' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=int32,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::convertVectorStorage<DEST_DATA_T,int,3,false>(const UT_FixedVector<int,3,false> &)' being compiled
+          with
+          [
+              T=fpreal32,
+              DATA_T=int32,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_80cd497fd9b94503b44f8c586965b233>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              DATA_T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(516): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::getVector::<lambda_80cd497fd9b94503b44f8c586965b233>>(FUNCTOR)' being compiled
+          with
+          [
+              DATA_T=int32,
+              FUNCTOR=UT_PageArray<int32,-1,true,false,10,GA_Offset>::getVector::<lambda_80cd497fd9b94503b44f8c586965b233>
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=__int64
+          ]
+          and
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<T,3,false>::UT_FixedVector<__int64,false>(const UT_FixedVector<__int64,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3557): note: see reference to function template instantiation 'UT_FixedVector<T,3,false>::UT_FixedVector<__int64,false>(const UT_FixedVector<__int64,3,false> &) noexcept' being compiled
+          with
+          [
+              T=fpreal32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::convertVectorStorage<DEST_DATA_T,__int64,3,false>(const UT_FixedVector<__int64,3,false> &)' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<int64,-1,true,false,10,IDX_T>::convertVectorStorage<DEST_DATA_T,__int64,3,false>(const UT_FixedVector<__int64,3,false> &)' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<int64,-1,true,false,10,IDX_T>::getVector::<lambda_8cbfd695a698e9d1d4a96c441d1bddb8>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(516): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<int64,-1,true,false,10,IDX_T>::getVector::<lambda_8cbfd695a698e9d1d4a96c441d1bddb8>>(FUNCTOR)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              FUNCTOR=UT_PageArray<int64,-1,true,false,10,GA_Offset>::getVector::<lambda_8cbfd695a698e9d1d4a96c441d1bddb8>
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1839): warning C4244: 'argument': conversion from 'int32' to 'fpreal32', possible loss of data
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(497): note: see reference to function template instantiation 'DEST_DATA_T UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getUnknownType<DEST_DATA_T>(IDX_T,exint) const' being compiled
+          with
+          [
+              DEST_DATA_T=fpreal16,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(497): note: see reference to function template instantiation 'DEST_DATA_T UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getUnknownType<DEST_DATA_T>(IDX_T,exint) const' being compiled
+          with
+          [
+              DEST_DATA_T=fpreal16,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1994): note: see reference to function template instantiation 'DEST_DATA_T UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::get<DEST_DATA_T>(IDX_T,exint) const' being compiled
+          with
+          [
+              DEST_DATA_T=fpreal16,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1994): note: see reference to function template instantiation 'DEST_DATA_T UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::get<DEST_DATA_T>(IDX_T,exint) const' being compiled
+          with
+          [
+              DEST_DATA_T=fpreal16,
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(524): note: see reference to function template instantiation 'UT_FixedVector<fpreal16,3,false> UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVectorUnknownSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              DEST_DATA_T=fpreal16
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(524): note: see reference to function template instantiation 'UT_FixedVector<fpreal16,3,false> UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVectorUnknownSize<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              DEST_DATA_T=fpreal16
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector::<lambda_ea715ace98d7565e4fa2488c7dddab90>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(525): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector::<lambda_ea715ace98d7565e4fa2488c7dddab90>>(FUNCTOR)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              FUNCTOR=UT_PageArray<fpreal16,-1,true,false,10,GA_Offset>::getVector::<lambda_ea715ace98d7565e4fa2488c7dddab90>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<fpreal16,3,false> UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector<fpreal16,3>(IDX_T) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(515): note: see reference to function template instantiation 'UT_FixedVector<fpreal16,3,false> UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector<fpreal16,3>(IDX_T) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_callif.h(51): note: see reference to function template instantiation 'void UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector::<lambda_a4a634a31922686b05b4d26113fd66c8>::operator ()<SYS_CallIf<true>::call::dummy>(SYS_CallIf<true>::call::dummy) const' being compiled
+          with
+          [
+              IDX_T=GA_Offset
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(516): note: see reference to function template instantiation 'void SYS_CallIf<true>::call<UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector::<lambda_a4a634a31922686b05b4d26113fd66c8>>(FUNCTOR)' being compiled
+          with
+          [
+              IDX_T=GA_Offset,
+              FUNCTOR=UT_PageArray<fpreal16,-1,true,false,10,GA_Offset>::getVector::<lambda_a4a634a31922686b05b4d26113fd66c8>
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1959): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1959): note: see reference to function template instantiation 'UT_FixedVector<T,3,false> UT_PageArray<fpreal16,-1,true,false,10,IDX_T>::getVector<DEST_DATA_T,3>(IDX_T) const' being compiled
+          with
+          [
+              T=fpreal32,
+              IDX_T=GA_Offset,
+              DEST_DATA_T=float
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1841): warning C4244: 'argument': conversion from 'int64' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1847): warning C4244: 'argument': conversion from 'fpreal64' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1863): warning C4244: 'argument': conversion from 'int' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1865): warning C4244: 'argument': conversion from '__int64' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1871): warning C4244: 'argument': conversion from 'double' to 'fpreal32', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\CIS660\particle2\hlsystem\..\output\particle.dll) does not match the Linker's OutputFile property value (C:\PluginHoudini\particle_Release64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(particle) does not match the Linker's OutputFile property value (particle_Release64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  main.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     Creating library ..\output\particle.lib and object ..\output\particle.exp
+  Generating code
+  Finished generating code
+  hlsystem.vcxproj -> E:\CIS660\particle2\hlsystem\..\output\particle.dll
