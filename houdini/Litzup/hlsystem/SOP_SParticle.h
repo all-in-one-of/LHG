@@ -33,6 +33,7 @@
 
 #include <SOP/SOP_Node.h>
 #include "lgh/cyLightingGrid.h"
+#include "lightGrid.h"
 
 #define INT_PARM(name, idx, vidx, t)	\
 	    return evalInt(name, &myOffsets[idx], vidx, t);
@@ -56,7 +57,9 @@ public:
 							    OP_Operator *);
 	void		buildLGH_callback(OP_Context &myContext);
 
-	void		buildLGH(const GU_Detail *mySource, fpreal currframe);
+	//void		buildLGH(const GU_Detail *mySource, fpreal currframe);
+
+	void		buildLGH1(const GU_Detail *mySource, fpreal currframe);
 
 
 protected:
@@ -65,6 +68,7 @@ protected:
     void		birthParticle();
 	void		birthParticle(UT_Vector3 pos, UT_Vector3 col, int level);
 	void		birthParticles(cy::Point3f *pos, cy::Color *col, int numLights, int level);
+	void		birthParticles1(std::vector<UT_Vector3> &pos, std::vector<UT_Vector3> &col, int numLights, int level);
 
     int			moveParticle(GA_Offset ptoff,
 				     const UT_Vector3 &force);

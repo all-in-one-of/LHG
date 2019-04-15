@@ -54,7 +54,7 @@ newSopOperator(OP_OperatorTable *table)
 {
     table->addOperator(new OP_Operator(
         "hdk_sparticle",
-        "Simple Particle",
+        "LitzUp",
         SOP_SParticle::myConstructor,
         SOP_SParticle::myTemplateList,
         1,      // Min required sources
@@ -178,7 +178,79 @@ void HDK_Sample::SOP_SParticle::birthParticles(cy::Point3f *pos, cy::Color *col,
 
 }
 
-void HDK_Sample::SOP_SParticle::buildLGH(const GU_Detail *mySource, fpreal currframe)
+void HDK_Sample::SOP_SParticle::birthParticles1(std::vector<UT_Vector3> &pos, std::vector<UT_Vector3> &col, int numLights, int level)
+{
+	for (int i = 0; i < numLights; i++) {
+		birthParticle(pos[i], col[i], level);
+	}
+
+}
+
+//void HDK_Sample::SOP_SParticle::buildLGH(const GU_Detail *mySource, fpreal currframe)
+//{
+//	GA_Index numPaticles = mySource->getPointMap().indexSize();
+//	const GA_Attribute* p_ref_position = mySource->findPointAttribute("P");
+//	const GA_Attribute* p_ref_color = mySource->findPointAttribute("Cd");
+//
+//	GA_ROHandleV3  pos(p_ref_position);
+//	GA_ROHandleV3  col(p_ref_color);
+//
+//	if (pos.isInvalid() || col.isInvalid()) {
+//		std::cout << "Input type error" << std::endl;
+//		return;
+//	}
+//
+//
+//	//////////////////////// //////////// Prepare Data //////////// ////////////////////////
+//
+//	std::vector<cy::Point3f> positions;
+//	std::vector<cy::Color> colors;
+//
+//	for (GA_Size i = 0; i < numPaticles; i++) {
+//		UT_Vector3F point_pos = pos.get(i);
+//		cy::Point3f cy_pos(point_pos.x(), point_pos.y(), point_pos.z());
+//		positions.push_back(cy_pos);
+//
+//		UT_Vector3F point_col = col.get(i);
+//		cy::Color cy_col(point_col.x(), point_col.y(), point_col.z());
+//		colors.push_back(cy_col);
+//
+//		//if (i == 31 || i == 35) {
+//		//	std::cout << point_pos << std::endl;
+//		//}
+//	}
+//
+//	//////////////////////// //////////// Build LGH //////////// ////////////////////////
+//	cy::LightingGridHierarchy LGH;
+//
+//	int minLevelLights = 1;
+//	float cellSize = CELL_SIZE();
+//	int highestLevel = 4;
+//
+//	const cy::Point3f *lightPos_ptr = positions.data();
+//	const cy::Color *lightCol_ptr = colors.data();
+//
+//	LGH.Build(lightPos_ptr, lightCol_ptr, (int)positions.size(), minLevelLights, cellSize, highestLevel);
+//
+//
+//	//////////////////////// //////////// Birth Particles //////////// ////////////////
+//
+//
+//	cy::LightingGridHierarchy::Level *levels = LGH.GetLevels();
+//	int numLevels = LGH.GetNumLevels();
+//
+//	for (int i = 0; i < numLevels; i++) {
+//		int numLights = levels[i].pc.GetPointCount() + 1;
+//		birthParticles(levels[i].positions, levels[i].colors, numLights, i);
+//	}
+//}
+//
+//
+
+/////////////////////////Chianti: updating buildLGH//////////////////////////
+
+
+void HDK_Sample::SOP_SParticle::buildLGH1(const GU_Detail *mySource, fpreal currframe)
 {
 	GA_Index numPaticles = mySource->getPointMap().indexSize();
 	const GA_Attribute* p_ref_position = mySource->findPointAttribute("P");
@@ -195,32 +267,42 @@ void HDK_Sample::SOP_SParticle::buildLGH(const GU_Detail *mySource, fpreal currf
 
 	//////////////////////// //////////// Prepare Data //////////// ////////////////////////
 
+	/*
 	std::vector<cy::Point3f> positions;
 	std::vector<cy::Color> colors;
+	*/
+
+	//*****Chianti: using houdini points class ******//
+	std::vector<UT_Vector3F> positions;
+	std::vector<UT_Vector3F> colors;
 
 	for (GA_Size i = 0; i < numPaticles; i++) {
 		UT_Vector3F point_pos = pos.get(i);
-		cy::Point3f cy_pos(point_pos.x(), point_pos.y(), point_pos.z());
-		positions.push_back(cy_pos);
+		//cy::Point3f cy_pos(point_pos.x(), point_pos.y(), point_pos.z());
+		positions.push_back(point_pos);
 
 		UT_Vector3F point_col = col.get(i);
-		cy::Color cy_col(point_col.x(), point_col.y(), point_col.z());
-		colors.push_back(cy_col);
+		//cy::Color cy_col(point_col.x(), point_col.y(), point_col.z());
+		colors.push_back(point_col);
 
-		//if (i == 31 || i == 35) {
-		//	std::cout << point_pos << std::endl;
-		//}
 	}
 
 	//////////////////////// //////////// Build LGH //////////// ////////////////////////
-	cy::LightingGridHierarchy LGH;
+
+	//******TODO: remember to get rid of the namespace *******//
+	//cy::LightingGridHierarchy LGH;
+
+	lightGrid LGH;
 
 	int minLevelLights = 1;
 	float cellSize = CELL_SIZE();
 	int highestLevel = 4;
 
-	const cy::Point3f *lightPos_ptr = positions.data();
-	const cy::Color *lightCol_ptr = colors.data();
+	//const cy::Point3f *lightPos_ptr = positions.data();
+	//const cy::Color *lightCol_ptr = colors.data();
+
+	const UT_Vector3 *lightPos_ptr = positions.data();
+	const UT_Vector3 *lightCol_ptr = colors.data();
 
 	LGH.Build(lightPos_ptr, lightCol_ptr, (int)positions.size(), minLevelLights, cellSize, highestLevel);
 
@@ -228,15 +310,19 @@ void HDK_Sample::SOP_SParticle::buildLGH(const GU_Detail *mySource, fpreal currf
 	//////////////////////// //////////// Birth Particles //////////// ////////////////
 
 
-	cy::LightingGridHierarchy::Level *levels = LGH.GetLevels();
+	//cy::LightingGridHierarchy::Level *levels = LGH.GetLevels();
+	lightGrid::Level *levels = LGH.GetLevels();
+
 	int numLevels = LGH.GetNumLevels();
 
 	for (int i = 0; i < numLevels; i++) {
-		int numLights = levels[i].pc.GetPointCount() + 1;
-		birthParticles(levels[i].positions, levels[i].colors, numLights, i);
+		/*int numLights = levels[i].pc.GetPointCount() + 1;
+		birthParticles(levels[i].positions, levels[i].colors, numLights, i);*/
+		int numLights = levels[i].positions.size();
+		birthParticles1(levels[i].positions, levels[i].colors, numLights, i);
+
 	}
 }
-
 
 void
 SOP_SParticle::birthParticle()
@@ -400,7 +486,8 @@ SOP_SParticle::cookMySop(OP_Context &context)
 		mySource = inputGeo(0, context);
 		if (mySource)
 		{
-			buildLGH(mySource, currframe);
+			//**************************chianti: testing revised point type ***********************//
+			buildLGH1(mySource, currframe);
 		}
 
 		// This is where we notify our handles (if any) if the inputs have
