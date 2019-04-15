@@ -27,6 +27,12 @@
     <ClCompile Include="SOP_SParticle.C">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lightGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="matrix.h">
@@ -55,6 +61,12 @@
     </ClInclude>
     <ClInclude Include="lgh\cyPointCloud.h">
       <Filter>Header Files\lgh</Filter>
+    </ClInclude>
+    <ClInclude Include="lightGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointCloud.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

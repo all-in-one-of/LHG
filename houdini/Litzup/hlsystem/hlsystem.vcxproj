@@ -272,7 +272,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lightGrid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="pointCloud.cpp" />
     <ClCompile Include="SOP_SParticle.C" />
     <ClCompile Include="vec.cpp" />
   </ItemGroup>
@@ -283,7 +285,9 @@
     <ClInclude Include="lgh\cyLightingGrid.h" />
     <ClInclude Include="lgh\cyPoint.h" />
     <ClInclude Include="lgh\cyPointCloud.h" />
+    <ClInclude Include="lightGrid.h" />
     <ClInclude Include="matrix.h" />
+    <ClInclude Include="pointCloud.h" />
     <ClInclude Include="SOP_SParticle.h" />
     <ClInclude Include="vec.h" />
   </ItemGroup>
