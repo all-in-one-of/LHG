@@ -56,7 +56,7 @@ newSopOperator(OP_OperatorTable *table)
         SOP_LitzupNode::myConstructor,
         SOP_LitzupNode::myTemplateList,
         (unsigned int)0,      // Min required sources
-        1,      // Maximum sources
+        2,      // Maximum sources
         0));
 }
 
@@ -64,7 +64,6 @@ newSopOperator(OP_OperatorTable *table)
 static PRM_Name names[] = {
     PRM_Name("alpha", "alpha"),
     PRM_Name("cell_size", "Cell Size"),
-    PRM_Name("force", "Force"),
 	PRM_Name("build_lgh", "Build LGH")
 };
 
@@ -74,8 +73,6 @@ static int buildLGH_static(void *data, int index, float time, const PRM_Template
 	OP_Context myContext(time);
 	SOP_LitzupNode *particleSystem_ptr = (SOP_LitzupNode *)data;
 
-	particleSystem_ptr->someFunction(myContext, particleSystem_ptr);
-
 	return 0;
 }
 
@@ -83,8 +80,7 @@ PRM_Template
 SOP_LitzupNode::myTemplateList[] = {
 	PRM_Template(PRM_INT,	1, &names[0], PRMoneDefaults),
 	PRM_Template(PRM_TYPE_FLOAT,	1, &names[1], &cell_size),
-	PRM_Template(PRM_XYZ_J,	3, &names[2]),
-	PRM_Template(PRM_CALLBACK, 1, &names[3], 0, 0, 0, buildLGH_static),
+	PRM_Template(PRM_CALLBACK, 1, &names[2], 0, 0, 0, buildLGH_static),
     PRM_Template(),
 };
 
@@ -172,7 +168,7 @@ void SOP_LitzupNode::birthParticles1(std::vector<UT_Vector3> &pos, std::vector<U
 /////////////////////////Chianti: updating buildLGH//////////////////////////
 
 
-void SOP_LitzupNode::buildLGH1(const GU_Detail *mySource, fpreal currframe)
+void SOP_LitzupNode::buildLGH(const GU_Detail *mySource, fpreal currframe, OP_Context &context)
 {
 	GA_Index numPaticles = mySource->getPointMap().indexSize();
 	const GA_Attribute* p_ref_position = mySource->findPointAttribute("P");
@@ -230,8 +226,6 @@ void SOP_LitzupNode::buildLGH1(const GU_Detail *mySource, fpreal currframe)
 
 	//////////////////////// //////////// Birth Particles //////////// ////////////////
 
-
-	//cy::LightingGridHierarchy::Level *levels = LGH.GetLevels();
 	lightGrid::Level *levels = LGH.GetLevels();
 
 	int numLevels = LGH.GetNumLevels();
@@ -241,8 +235,19 @@ void SOP_LitzupNode::buildLGH1(const GU_Detail *mySource, fpreal currframe)
 		birthParticles(levels[i].positions, levels[i].colors, numLights, i);*/
 		int numLights = levels[i].positions.size();
 		birthParticles1(levels[i].positions, levels[i].colors, numLights, i);
+	}
+
+
+	//////////////////////// //////////// Connect nodes //////////// ////////////////
+	while (copy_nodes.size() < numLevels) {
+		// TODO TONG
+		float radius = 8.0f;
+		OP_Node* node = createCopyAndLightNode(context, copy_nodes.size(), radius);
+		copy_nodes.push_back(node);
+
 
 	}
+
 }
 
 void
@@ -274,73 +279,13 @@ SOP_LitzupNode::birthParticle()
         gdp->setPos3(ptoff, SYSdrand48()-.5, SYSdrand48()-.5, SYSdrand48()-.5);
 		myVelocity.set(ptoff, UT_Vector3(0, 0, 0));
     }
-    // First index of the life variable represents how long the particle has
-    // been alive (set to 0).
-    myLife.set(ptoff, 0, 1);
-    // The second index of the life variable represents how long the particle
-    // will live (in frames)
-    myLife.set(ptoff, 1, 30+30*SYSdrand48());
+
 }
 
-int
-SOP_LitzupNode::moveParticle(GA_Offset ptoff, const UT_Vector3 &force)
-{
-    float life = myLife.get(ptoff, 0);
-    float death = myLife.get(ptoff, 1);
-    life += 1;
-    myLife.set(ptoff, life, 0); // Store back in point
-    if (life >= death)
-        return 0;               // The particle should die!
-
-    float tinc = 1./30.;        // Hardwire 1/30 of a second time inc...
-
-    // Adjust the velocity (based on the force) - of course, the multiplies
-    // can be pulled out of the loop...
-    UT_Vector3 vel = myVelocity.get(ptoff);
-    vel += tinc*force;
-    myVelocity.set(ptoff, vel);
-
-    // Now adjust the point positions
-
-    if (myCollision)
-    {
-	UT_Vector3 dir = vel * tinc;
-
-	// here, we only allow hits within the length of the velocity vector
-	GU_RayInfo info(dir.normalize());
-
-	UT_Vector3 start = gdp->getPos3(ptoff);
-	if (myCollision->sendRay(start, dir, info) > 0)
-	    return 0;	// We hit something, so kill the particle
-    }
-
-    UT_Vector3 pos = gdp->getPos3(ptoff);
-    pos += tinc*vel;
-    gdp->setPos3(ptoff, pos);
-
-    return 1;
-}
 
 void
 SOP_LitzupNode::timeStep(fpreal now)
 {
-    UT_Vector3 force(FX(now), FY(now), FZ(now));
-	int nbirth = 10;
-
-    if (error() >= UT_ERROR_ABORT)
-	return;
-
-  //  for (int i = 0; i < nbirth; ++i)
-		//birthParticle();
-
-    for (GA_Size i = 0; i < mySystem->getNumParticles(); i++)
-    {
-		GA_Offset offset = mySystem->vertexPoint(i);
-
-		if (!moveParticle(offset, force))
-			mySystem->deadParticle(i);
-    }
-    mySystem->deleteDead();
 }
 
 void
@@ -367,10 +312,7 @@ SOP_LitzupNode::initSystem()
 		myColor.getAttribute()->setTypeInfo(GA_TYPE_VECTOR);
 	}
 
-	myLife = GA_RWHandleF(gdp->addFloatTuple(GA_ATTRIB_POINT, "life", 2));
-
 	myLevel = GA_RWHandleF(gdp->addIntTuple(GA_ATTRIB_POINT, "level", 1));
-
 
 }
 
@@ -404,38 +346,39 @@ SOP_LitzupNode::cookMySop(OP_Context &context)
 
 	initSystem();
 
-		// Set up our source information...
-		mySource = inputGeo(0, context);
-		if (mySource)
-		{
-			//**************************chianti: testing revised point type ***********************//
-			buildLGH1(mySource, currframe);
-		}
+	// Set up our source information...
+	mySource = inputGeo(0, context);
+	
+	if (mySource)
+	{
+		//**************************chianti: testing revised point type ***********************//
+		buildLGH(mySource, currframe, context);
+	}
 
-		// This is where we notify our handles (if any) if the inputs have
-		// changed.  This is normally done in cookInputGroups, but since there
-		// is no input group, NULL is passed as the fourth argument.
-		notifyGroupParmListeners(0, -1, mySource, NULL);
+	// This is where we notify our handles (if any) if the inputs have
+	// changed.  This is normally done in cookInputGroups, but since there
+	// is no input group, NULL is passed as the fourth argument.
+	notifyGroupParmListeners(0, -1, mySource, NULL);
 
 
-		// Now cook the geometry up to our current time
-		// Here, we could actually re-cook the source input to get a moving
-		// source...  But this is just an example ;-)
-		currframe += 0.05;	// Add a bit to avoid floating point error
-		while (myLastCookTime < currframe)
-		{
-		    // Here we have to convert our frame number to the actual time.
-			// TONG TODO
+	// Now cook the geometry up to our current time
+	// Here, we could actually re-cook the source input to get a moving
+	// source...  But this is just an example ;-)
+	currframe += 0.05;	// Add a bit to avoid floating point error
+	while (myLastCookTime < currframe)
+	{
+	    // Here we have to convert our frame number to the actual time.
+		// TONG TODO
 
-		    //timeStep(chman->getTime(myLastCookTime));
+	    //timeStep(chman->getTime(myLastCookTime));
 
-		    myLastCookTime += 1;
-		}
+	    myLastCookTime += 1;
+	}
 
-		// Set the node selection for the generated particles. This will 
-		// highlight all the points generated by this node, but only if the 
-		// highlight flag is on and the node is selected.
-		select(GA_GROUP_POINT);
+	// Set the node selection for the generated particles. This will 
+	// highlight all the points generated by this node, but only if the 
+	// highlight flag is on and the node is selected.
+	select(GA_GROUP_POINT);
     
 
     return error();
@@ -447,42 +390,82 @@ SOP_LitzupNode::inputLabel(unsigned inum) const
     switch (inum)
     {
 	case 0: return "Particle Source Geometry";
+	case 1: return "Primitives to Copy";
     }
     return "Unknown source";
 }
 
 
 bool
-SOP_LitzupNode::someFunction(OP_Context &context, OP_Network *root)
+SOP_LitzupNode::createNode(OP_Context &context, OP_Network *root)
 {
 	float           t = context.getTime();
-	OP_Network *    parent;
-	OP_Node *       node;
-	OP_Node *       input;
-	// create node
-	parent = root->getParent();
 
-	node = parent->createNode("cam", "cam1");
-	OP_Node * geo_node = parent->createNode("geo", "light_geo");
-	if (!node || !geo_node)
+	// create node
+	OP_Network *parent = root->getParent();
+	OP_Node * copyNode = parent->createNode("copytopoints");
+
+	if (!copyNode)
 		return false;
 	// run creation script
-	if (!node->runCreateScript())
+	if (!copyNode->runCreateScript())
 		return false;
-	if (!geo_node->runCreateScript())
-		return false;
+
 	// set parameters
-	node->setFloat("t", 0, t, 1.0f);    // set tx to 1.0
-	node->setFloat("t", 1, t, 2.0f);    // set ty to 2.0
-	node->setFloat("t", 2, t, 0.0f);    // set tz to 0.0
-	// connect the node
-	input = parent->findNode("null1");  // find /obj/null1 as relative path
-	if (input)
-	{
-		node->setInput(0, input);       // set first input to /obj/null1
+	std::string val = "@level==1";
+
+	bool succuss = copyNode->setParameterOrProperty("targetgroup", 0, t, val.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
+
+	if (!succuss) {
+		std::cout << copyNode->getOpType() << std::endl;
+
 	}
+
+	// connect the node
+	copyNode->setInput(1, root);       // set first input to /obj/null1
+	
 	// now that done we're done connecting it, position it relative to its
 	// inputs
-	node->moveToGoodPosition();
+	copyNode->moveToGoodPosition();
+
 	return true;
+}
+
+OP_Node * SOP_LitzupNode::createCopyAndLightNode(OP_Context & context, int level, float radius)
+{
+	float t = context.getTime();
+
+	// create node
+	OP_Network *parent = getParent();
+	OP_Node * copyNode = parent->createNode("copytopoints");
+	if (!copyNode)
+		return false;
+	// run creation script
+	if (!copyNode->runCreateScript())
+		return false;
+
+	// set parameters
+	std::string val = "@level==" + std::to_string(level);
+	bool succuss = copyNode->setParameterOrProperty("targetgroup", 0, t, val.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
+
+
+	// Light node
+	// create node
+	OP_Network* root = (OP_Network *)OPgetDirector()->findNode("/obj");
+	OP_Node* lightNode = root->createNode("hlight");
+
+	UT_String copynode_path;
+	getFullPath(copynode_path);
+
+	lightNode->setParameterOrProperty("areageometry", 0, t, copynode_path.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
+	lightNode->setParameterOrProperty("activeradius", 0, t, radius);
+
+
+	// set input
+	copyNode->setInput(0, this);
+	OP_Node* primitive = getInput(1);
+	if (primitive) 
+		copyNode->setInput(1, primitive);
+
+	return copyNode;
 }

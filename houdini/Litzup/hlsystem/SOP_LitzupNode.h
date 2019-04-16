@@ -55,9 +55,11 @@ public:
 							    OP_Operator *);
 	void		buildLGH_callback(OP_Context &myContext);
 
-	void		buildLGH1(const GU_Detail *mySource, fpreal currframe);
+	void		buildLGH(const GU_Detail *mySource, fpreal currframe, OP_Context &context);
 
-	bool		someFunction(OP_Context &context, OP_Network* root);
+	bool		createNode(OP_Context &context, OP_Network* root);
+	OP_Node *	createCopyAndLightNode(OP_Context & context, int level, float radius);
+
 
 	bool isChild;
 
@@ -75,7 +77,9 @@ protected:
     void		timeStep(fpreal now);
 
     // Method to cook geometry for the SOP
-    virtual OP_ERROR		 cookMySop(OP_Context &context);
+    virtual OP_ERROR		 cookMySop(OP_Context &context) override;
+
+	std::vector<OP_Node*> copy_nodes;
 
 private:
     // These use defines to make it easy to add parms and remove them.
@@ -84,12 +88,7 @@ private:
     //	doesn't have to be in sequential order...
     int			 ALPHA()	{	  INT_PARM("alpha", 0, 0, 0) }
 
-    fpreal		 FX(fpreal t)	{ FLT_PARM("force", 1, 0, t) }
-    fpreal		 FY(fpreal t)	{ FLT_PARM("force", 1, 1, t) }
-    fpreal		 FZ(fpreal t)	{ FLT_PARM("force", 1, 2, t) }
-
 	fpreal		 CELL_SIZE() { FLT_PARM("cell_size", 2, 0, 0) }
-
 
     const GU_Detail	*mySource;
     GA_Index		 mySourceNum;		// Source point to birth from
@@ -97,14 +96,11 @@ private:
 	GA_ROHandleV3	 mySourceCol;		// Color attrib in source
 
 
-    GU_RayIntersect	*myCollision;
-
     GEO_PrimParticle	*mySystem;
     fpreal		 myLastCookTime;	// Last cooked time
     GA_RWHandleV3	 myVelocity;		// My velocity attribute
 
 	GA_RWHandleV3	 myColor;		// My color attribute
-    GA_RWHandleF	 myLife;		// My Color attribute
 	GA_RWHandleF	 myLevel;		// My Level attribute
 
     static int		*myOffsets;
