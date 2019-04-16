@@ -378,17 +378,6 @@ OP_ERROR
 SOP_LitzupNode::cookMySop(OP_Context &context)
 {
 
-	OP_Network *parent = getParent();
-
-	auto name = parent->getName();
-	std::cout << name.c_str() << std::endl;
-	OP_Node * geo_node = parent->createNode("litzup", "light_geo");
-
-	OP_Node * geo_node1 = createNode("litzup", "light_geo_child");
-
-
-
-
     // We must lock our inputs before we try to access their geometry.
     // OP_AutoLockInputs will automatically unlock our inputs when we return.
     // NOTE: Don't call unlockInputs yourself when using this!
