@@ -248,7 +248,7 @@
 -DSIZEOF_VOID_P=8
 -DMAKING_DSO -DHBOOST_ALL_NO_LIB %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
       <AdditionalIncludeDirectories>$(H17_PATH)\toolkit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HOUDINI_TEMPLATE_EXPORTS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
@@ -274,22 +274,12 @@
   <ItemGroup>
     <ClCompile Include="lightGrid.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="pointCloud.cpp" />
-    <ClCompile Include="SOP_SParticle.C" />
-    <ClCompile Include="vec.cpp" />
+    <ClCompile Include="SOP_LitzupNode.C" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lgh\cyColor.h" />
-    <ClInclude Include="lgh\cyCore.h" />
-    <ClInclude Include="lgh\cyIPoint.h" />
-    <ClInclude Include="lgh\cyLightingGrid.h" />
-    <ClInclude Include="lgh\cyPoint.h" />
-    <ClInclude Include="lgh\cyPointCloud.h" />
     <ClInclude Include="lightGrid.h" />
     <ClInclude Include="matrix.h" />
-    <ClInclude Include="pointCloud.h" />
-    <ClInclude Include="SOP_SParticle.h" />
-    <ClInclude Include="vec.h" />
+    <ClInclude Include="SOP_LitzupNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
