@@ -65,6 +65,7 @@ artifacts/
 StyleCopReport.xml
 
 # Files built by Visual Studio
+*.tlog
 *_i.c
 *_p.c
 *_h.h
@@ -345,3 +346,17 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 /assignment_package/pathtracer.pro.user
+/houdini/Litzup/hlsystem/x64/Release64/*/*
+/houdini/Litzup/hlsystem/x64/Release64/SOP_SParticle.obj
+/houdini/Litzup/hlsystem/x64/Release64/hlsystem.log
+/houdini/Litzup/hlsystem/x64/Release64/main.obj
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/CL.command.1.tlog
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/CL.read.1.tlog
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/CL.write.1.tlog
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/link.command.1.tlog
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/link.read.1.tlog
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/link.write.1.tlog
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/particle.lastbuildstate
+/houdini/Litzup/hlsystem/x64/Release64/particle.tlog/particle.write.1u.tlog
+/houdini/Litzup/hlsystem/x64/Release64/vc141.pdb
+/houdini/Litzup/hlsystem/x64/Release64/vec.obj
