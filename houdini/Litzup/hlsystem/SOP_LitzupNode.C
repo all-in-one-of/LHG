@@ -73,6 +73,7 @@ static int buildLGH_static(void *data, int index, float time, const PRM_Template
 	OP_Context myContext(time);
 	SOP_LitzupNode *particleSystem_ptr = (SOP_LitzupNode *)data;
 
+	particleSystem_ptr->createCopyAndLightNode(myContext, 1, 10.f);
 	return 0;
 }
 
@@ -92,14 +93,9 @@ OP_Node *SOP_LitzupNode::myConstructor(OP_Network *net, const char *name, OP_Ope
 }
 
 
-void SOP_LitzupNode::buildLGH_callback(OP_Context &myContext) {
-	cookMySop(myContext);
-}
-
-
 SOP_LitzupNode::SOP_LitzupNode(OP_Network *net, const char *name, OP_Operator *op)
     : SOP_Node(net, name, op)
-    , mySystem(NULL)
+    , mySystem(NULL), maxLevel(0)
 {
     // Make sure that our offsets are allocated.  Here we allow up to 32
     // parameters, no harm in over allocating.  The definition for this
@@ -138,11 +134,6 @@ SOP_LitzupNode::birthParticle(UT_Vector3 pos, UT_Vector3 col, int level)
 
 	if (GAisValid(srcptoff))
 	{
-
-		//if (ptoff == 31 || ptoff == 35) {
-		//	std::cout << "stop" << std::endl;
-		//}
-
 		gdp->setPos3(ptoff, pos);
 		
 		myColor.set(ptoff, col);
@@ -213,7 +204,7 @@ void SOP_LitzupNode::buildLGH(const GU_Detail *mySource, fpreal currframe, OP_Co
 
 	int minLevelLights = 1;
 	float cellSize = CELL_SIZE();
-	int highestLevel = 4;
+	int highestLevel = 8;
 
 	//const cy::Point3f *lightPos_ptr = positions.data();
 	//const cy::Color *lightCol_ptr = colors.data();
@@ -229,7 +220,8 @@ void SOP_LitzupNode::buildLGH(const GU_Detail *mySource, fpreal currframe, OP_Co
 	lightGrid::Level *levels = LGH.GetLevels();
 
 	int numLevels = LGH.GetNumLevels();
-
+	if (numLevels > maxLevel)
+		maxLevel = numLevels;
 	for (int i = 0; i < numLevels; i++) {
 		/*int numLights = levels[i].pc.GetPointCount() + 1;
 		birthParticles(levels[i].positions, levels[i].colors, numLights, i);*/
@@ -239,13 +231,29 @@ void SOP_LitzupNode::buildLGH(const GU_Detail *mySource, fpreal currframe, OP_Co
 
 
 	//////////////////////// //////////// Connect nodes //////////// ////////////////
+	OP_NetworkBoxItemList connected_nodes;
+	getConnectedItems(connected_nodes, false, false, false);
+	
+	if (missingNode(numLevels)) {
+		copy_nodes.clear();
+	}
+
+	fpreal alpha = ALPHA();
+
+
 	while (copy_nodes.size() < numLevels) {
-		// TODO TONG
-		float radius = 8.0f;
-		OP_Node* node = createCopyAndLightNode(context, copy_nodes.size(), radius);
+		int level = copy_nodes.size();
+		int scale = 1 << level;
+		float radius = cellSize * alpha * scale * 0.5;
+		OP_Node* node = createCopyAndLightNode(context, level, radius);
 		copy_nodes.push_back(node);
+	}
 
-
+	// Update parameter if necessay
+	if (m_alpha != alpha || m_cellsize != cellSize) {
+		m_cellsize = cellSize;
+		m_alpha = alpha;
+		updateNodeParameter(context, cellSize, alpha);
 	}
 
 }
@@ -336,7 +344,6 @@ SOP_LitzupNode::cookMySop(OP_Context &context)
 
     // This is the frame that we're cooking at...
     fpreal currframe = chman->getSample(context.getTime());
-	fpreal alpha = ALPHA(); // Find our reset frame...
 
 	//if (!mySystem)
 	//{
@@ -359,7 +366,6 @@ SOP_LitzupNode::cookMySop(OP_Context &context)
 	// changed.  This is normally done in cookInputGroups, but since there
 	// is no input group, NULL is passed as the fourth argument.
 	notifyGroupParmListeners(0, -1, mySource, NULL);
-
 
 	// Now cook the geometry up to our current time
 	// Here, we could actually re-cook the source input to get a moving
@@ -384,6 +390,28 @@ SOP_LitzupNode::cookMySop(OP_Context &context)
     return error();
 }
 
+bool SOP_LitzupNode::missingNode(int numLevels)
+{
+	OP_Network* root = (OP_Network *)OPgetDirector()->findNode("/obj");
+
+	for (int i = 0; i < maxLevel; i++) {
+		std::string copy_name = "Litzup_cp_level" + std::to_string(i);
+		OP_Node * copyNode = findNode(copy_name.c_str());
+		if (!copyNode) {
+			return true;
+		}
+
+		std::string light_name = "Litzup_light_level" + std::to_string(i);
+		OP_Node * lightNode = root->findNode(light_name.c_str());
+		
+		if (!lightNode) {
+			return true;
+		}		
+	}
+
+	return false;;
+}
+
 const char *
 SOP_LitzupNode::inputLabel(unsigned inum) const
 {
@@ -395,77 +423,86 @@ SOP_LitzupNode::inputLabel(unsigned inum) const
     return "Unknown source";
 }
 
-
-bool
-SOP_LitzupNode::createNode(OP_Context &context, OP_Network *root)
-{
-	float           t = context.getTime();
-
-	// create node
-	OP_Network *parent = root->getParent();
-	OP_Node * copyNode = parent->createNode("copytopoints");
-
-	if (!copyNode)
-		return false;
-	// run creation script
-	if (!copyNode->runCreateScript())
-		return false;
-
-	// set parameters
-	std::string val = "@level==1";
-
-	bool succuss = copyNode->setParameterOrProperty("targetgroup", 0, t, val.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
-
-	if (!succuss) {
-		std::cout << copyNode->getOpType() << std::endl;
-
-	}
-
-	// connect the node
-	copyNode->setInput(1, root);       // set first input to /obj/null1
-	
-	// now that done we're done connecting it, position it relative to its
-	// inputs
-	copyNode->moveToGoodPosition();
-
-	return true;
-}
-
 OP_Node * SOP_LitzupNode::createCopyAndLightNode(OP_Context & context, int level, float radius)
 {
 	float t = context.getTime();
+	OP_Node * copyNode = nullptr;
+	OP_Node* lightNode = nullptr;
 
-	// create node
+	// Copy node, create node
 	OP_Network *parent = getParent();
-	OP_Node * copyNode = parent->createNode("copytopoints");
-	if (!copyNode)
-		return false;
-	// run creation script
-	if (!copyNode->runCreateScript())
-		return false;
+	std::string copy_name = "Litzup_cp_level" + std::to_string(level);
 
-	// set parameters
-	std::string val = "@level==" + std::to_string(level);
-	bool succuss = copyNode->setParameterOrProperty("targetgroup", 0, t, val.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
+	copyNode = parent->findNode(copy_name.c_str());
+
+	if (!copyNode) {
+		copyNode = parent->createNode("copytopoints", copy_name.c_str());
+
+		if (!copyNode)
+			return copyNode;
+		// run creation script
+		if (!copyNode->runCreateScript())
+			return copyNode;
+
+		// set parameters
+		std::string val = "@level==" + std::to_string(level);
+		bool succuss = copyNode->setParameterOrProperty("targetgroup", 0, t, val.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
+		if (!succuss) {
+			std::cout << "Failed to set copy node parameter" << std::endl;
+		}
+		// set input
+		copyNode->setInput(1, this);
+		OP_Node* primitive = getInput(1);
+		if (primitive)
+			copyNode->setInput(0, primitive);
+		copyNode->moveToGoodPosition();
+	}
 
 
-	// Light node
-	// create node
+	// Light node, create node
+	std::string light_name = "Litzup_light_level" + std::to_string(level);
 	OP_Network* root = (OP_Network *)OPgetDirector()->findNode("/obj");
-	OP_Node* lightNode = root->createNode("hlight");
+	if (!root) {
+		std::cout << "No obj node" << std::endl;
+	}
+	
+	lightNode = root->findNode(light_name.c_str());
 
-	UT_String copynode_path;
-	getFullPath(copynode_path);
+	if (!lightNode) {
+		lightNode = root->createNode("hlight", light_name.c_str());
 
-	lightNode->setParameterOrProperty("areageometry", 0, t, copynode_path.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
-	lightNode->setParameterOrProperty("activeradius", 0, t, radius);
+		if (!lightNode || !lightNode->runCreateScript())
+			return copyNode;
 
+		UT_String copynode_path;
+		parent->getFullPath(copynode_path);
+		copynode_path.append('/');
+		copynode_path.append(copy_name.c_str());
 
-	// set input
-	copyNode->setInput(0, this);
-	OP_Node* primitive = getInput(1);
-	if (primitive) 
-		copyNode->setInput(1, primitive);
+		bool succuss = lightNode->setParameterOrProperty("light_type", 0, t, 6);
+		succuss &= lightNode->setParameterOrProperty("areageometry", 0, t, copynode_path.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
+		succuss &= lightNode->setParameterOrProperty("activeradiusenable", 0, t, 1);
+		succuss &= lightNode->setParameterOrProperty("activeradius", 0, t, radius);
+		if (!succuss) {
+			std::cout << "Failed to set ligth parameter" << std::endl;
+		}
+		lightNode->moveToGoodPosition();
+
+	}
 
 	return copyNode;
+}
+
+void SOP_LitzupNode::updateNodeParameter(OP_Context & context, fpreal cellSize, fpreal alpha)
+{
+	float t = context.getTime();
+	OP_Network* root = (OP_Network *)OPgetDirector()->findNode("/obj");
+
+	for (int i = 0; i < maxLevel; i++) {
+		int scale = 1 << i;
+		std::string light_name = "Litzup_light_level" + std::to_string(i);
+
+		OP_Node * lightNode = root->findNode(light_name.c_str());
+		lightNode->setParameterOrProperty("activeradius", 0, t, cellSize * alpha * scale * 0.5);
+	}
 }

@@ -53,15 +53,14 @@ public:
     static PRM_Template		 myTemplateList[];
     static OP_Node		*myConstructor(OP_Network*, const char *,
 							    OP_Operator *);
-	void		buildLGH_callback(OP_Context &myContext);
 
 	void		buildLGH(const GU_Detail *mySource, fpreal currframe, OP_Context &context);
 
-	bool		createNode(OP_Context &context, OP_Network* root);
 	OP_Node *	createCopyAndLightNode(OP_Context & context, int level, float radius);
-
-
-	bool isChild;
+	void		updateNodeParameter(OP_Context & context, fpreal cellSize, fpreal alpha);
+	int			maxLevel;
+	fpreal		m_cellsize;
+	fpreal		m_alpha;
 
 protected:
     virtual const char          *inputLabel(unsigned idx) const;
@@ -80,6 +79,8 @@ protected:
     virtual OP_ERROR		 cookMySop(OP_Context &context) override;
 
 	std::vector<OP_Node*> copy_nodes;
+
+	bool	missingNode(int numLevels);
 
 private:
     // These use defines to make it easy to add parms and remove them.
