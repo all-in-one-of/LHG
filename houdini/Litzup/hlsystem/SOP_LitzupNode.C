@@ -63,8 +63,7 @@ newSopOperator(OP_OperatorTable *table)
 // The names here have to match the inline evaluation functions
 static PRM_Name names[] = {
     PRM_Name("alpha", "alpha"),
-    PRM_Name("cell_size", "Cell Size"),
-	PRM_Name("build_lgh", "Build LGH")
+    PRM_Name("cell_size", "Cell Size")
 };
 
 static PRM_Default	cell_size(1.0);
@@ -81,7 +80,7 @@ PRM_Template
 SOP_LitzupNode::myTemplateList[] = {
 	PRM_Template(PRM_INT,	1, &names[0], PRMoneDefaults),
 	PRM_Template(PRM_TYPE_FLOAT,	1, &names[1], &cell_size),
-	PRM_Template(PRM_CALLBACK, 1, &names[2], 0, 0, 0, buildLGH_static),
+	//PRM_Template(PRM_CALLBACK, 1, &names[2], 0, 0, 0, buildLGH_static),
     PRM_Template(),
 };
 
@@ -483,6 +482,10 @@ OP_Node * SOP_LitzupNode::createCopyAndLightNode(OP_Context & context, int level
 		succuss &= lightNode->setParameterOrProperty("areageometry", 0, t, copynode_path.c_str(), CH_StringMeaning::CH_STRING_LITERAL);
 		succuss &= lightNode->setParameterOrProperty("activeradiusenable", 0, t, 1);
 		succuss &= lightNode->setParameterOrProperty("activeradius", 0, t, radius);
+
+		succuss &= lightNode->setParameterOrProperty("normalizearea", 0, t, 0, false);
+
+
 		if (!succuss) {
 			std::cout << "Failed to set ligth parameter" << std::endl;
 		}

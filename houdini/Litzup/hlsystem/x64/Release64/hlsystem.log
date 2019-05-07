@@ -1,11 +1,76 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Release64\) contains files shared from another project (hlsystem.vcxproj).  This can lead to incorrect clean and rebuild behavior.
 cl : Command line warning D9025: overriding '/MDd' with '/MD'
+  lightGrid.cpp
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_storage.h(260): warning C4244: '=': conversion from 'exint' to 'int', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(267): warning C4244: 'argument': conversion from 'int' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(272): warning C4244: 'return': conversion from 'int' to 'fpreal32', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(534): warning C4018: '<=': signed/unsigned mismatch
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(552): warning C4018: '<=': signed/unsigned mismatch
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(1108): warning C4244: 'return': conversion from 'uint64' to 'uint', possible loss of data
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_math.h(1116): warning C4244: 'return': conversion from 'uint64' to 'uint', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.h(12): warning C4005: 'NDEBUG': macro redefinition
+  e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp: note: see previous definition of 'NDEBUG'
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(168): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+          and
+          [
+              T=int32
+          ]
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(182): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int32
+          ]
+          and
+          [
+              T=fpreal32
+          ]
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(206): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int32
+          ]
+          and
+          [
+              T=fpreal32
+          ]
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(391): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_fixedvector.h(52): warning C4244: '=': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=fpreal32
+          ]
+          and
+          [
+              T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vector3.h(249): note: see reference to function template instantiation 'UT_FixedVector<T,3,true>::UT_FixedVector<float,true>(const UT_FixedVector<float,3,true> &) noexcept' being compiled
+          with
+          [
+              T=int32
+          ]
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_vector3.h(248): note: see reference to function template instantiation 'UT_FixedVector<T,3,true>::UT_FixedVector<float,true>(const UT_FixedVector<float,3,true> &) noexcept' being compiled
+          with
+          [
+              T=int32
+          ]
+  e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(112): note: see reference to function template instantiation 'UT_Vector3T<int32>::UT_Vector3T<fpreal32>(const UT_Vector3T<fpreal32> &)' being compiled
+  e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(112): note: see reference to function template instantiation 'UT_Vector3T<int32>::UT_Vector3T<fpreal32>(const UT_Vector3T<fpreal32> &)' being compiled
   main.cpp
-  vec.cpp
+  Generating Code...
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.cpp(38): warning C4172: returning address of local variable or temporary
 cl : Command line warning D9025: overriding '/TC' with '/TP'
 cl : Command line warning D9025: overriding '/MDd' with '/MD'
-  SOP_SParticle.C
+  SOP_LitzupNode.C
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_string.h(189): warning C4996: 'memccpy': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _memccpy. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h(79): note: see declaration of 'memccpy'
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\sys\sys_string.h(230): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
@@ -768,7 +833,9 @@ c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1777): note: see declaration of 'UT_Array<sop_attribRef>'
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1783): warning C4251: 'SOP_Node::myAttributeEvaluatorCache': class 'UT_StringMap<sop_AttributeEvaluator *>' needs to have dll-interface to be used by clients of class 'SOP_Node'
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\sop\sop_node.h(1783): note: see declaration of 'UT_StringMap<sop_AttributeEvaluator *>'
-e:\cis660\particle2\hlsystem\sop_sparticle.h(83): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\lightgrid.h(12): warning C4005: 'NDEBUG': macro redefinition
+  e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c: note: see previous definition of 'NDEBUG'
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.h(92): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ts\ts_ray.h(34): warning C4251: 'TS_Ray::ourRaySerial': class 'UT_ThreadSpecificValue<int>' needs to have dll-interface to be used by clients of class 'TS_Ray'
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\expr\ex_error.h(41): note: see declaration of 'UT_ThreadSpecificValue<int>'
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ts\ts_expression.h(78): warning C4251: 'UT_IntrusiveRefCounter<TS_MetaExpression,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>::myRefCount': class 'SYS_AtomicInt<int32>' needs to have dll-interface to be used by clients of class 'UT_IntrusiveRefCounter<TS_MetaExpression,std::default_delete<DerivedT>,UT_IntrusiveThreadSafeCounterPolicy>'
@@ -894,24 +961,17 @@ c:\program files\side effects software\houdini 17.0.459\toolkit\include\cmd\cmd_
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_otlmanager.h(705): warning C4244: 'initializing': conversion from 'exint' to 'int', possible loss of data
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_operatortable.h(386): warning C4244: 'initializing': conversion from 'exint' to 'int', possible loss of data
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\op\op_director.h(298): warning C4244: 'return': conversion from 'exint' to 'int', possible loss of data
-e:\cis660\particle2\hlsystem\sop_sparticle.c(155): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c(139): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=fpreal32
           ]
-e:\cis660\particle2\hlsystem\sop_sparticle.c(219): warning C4244: 'initializing': conversion from 'fpreal' to 'float', possible loss of data
-e:\cis660\particle2\hlsystem\sop_sparticle.c(275): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=fpreal32
-          ]
-e:\cis660\particle2\hlsystem\sop_sparticle.c(284): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-e:\cis660\particle2\hlsystem\sop_sparticle.c(288): warning C4305: 'initializing': truncation from 'double' to 'float'
-e:\cis660\particle2\hlsystem\sop_sparticle.c(320): warning C4244: 'argument': conversion from 'fpreal' to 'T', possible loss of data
-          with
-          [
-              T=fpreal32
-          ]
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c(205): warning C4244: 'initializing': conversion from 'fpreal' to 'float', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c(227): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c(244): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c(246): warning C4244: 'initializing': conversion from 'fpreal' to 'float', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c(427): warning C4244: 'initializing': conversion from 'fpreal' to 'float', possible loss of data
+e:\cis660\lhg\houdini\litzup\hlsystem\sop_litzupnode.c(501): warning C4244: 'initializing': conversion from 'fpreal' to 'float', possible loss of data
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arrayset.h(1090): warning C4018: '>': signed/unsigned mismatch
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_arrayset.h(1034): note: while compiling class template member function 'UT::ArraySet<UT_StringHolder,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::iterator_t<false> UT::ArraySet<Key,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::erase(UT::ArraySet<Key,false,128,UT::DefaultClearer<UT_StringHolder>,std::hash<UT_StringHolder>,std::equal_to<Key>>::iterator_t<false>)'
           with
@@ -1064,47 +1124,34 @@ c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pa
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2230): note: while compiling class template member function 'bool UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::PageTableEntry::isRefd(exint) const'
           with
           [
-              DATA_T=float
+              DATA_T=void
           ]
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(3331): note: see reference to function template instantiation 'bool UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::PageTableEntry::isRefd(exint) const' being compiled
           with
           [
-              DATA_T=float
+              DATA_T=void
           ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(461): note: see reference to class template instantiation 'UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::PageTableEntry' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1394): note: see reference to class template instantiation 'UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::PageTableEntry' being compiled
           with
           [
-              DATA_T=float
+              DATA_T=void
           ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(449): note: while compiling class template member function 'float UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::operator ()(IDX_T,exint) const'
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1391): note: while compiling class template member function 'bool UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::isPageConstant(UT_PageNum) const'
           with
           [
-              DATA_T=float,
-              IDX_T=GA_Offset
+              DATA_T=void
           ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(495): note: see reference to function template instantiation 'float UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::operator ()(IDX_T,exint) const' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atinumeric.h(310): note: see reference to function template instantiation 'bool UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>::isPageConstant(UT_PageNum) const' being compiled
           with
           [
-              DATA_T=float,
-              IDX_T=GA_Offset
+              DATA_T=void
           ]
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_pagearray.h(99): note: see reference to class template instantiation 'UT_PageArray<DATA_T,-1,true,false,10,GA_Offset>' being compiled
           with
           [
-              DATA_T=float
+              DATA_T=void
           ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(672): note: see reference to class template instantiation 'GA_PageArray<float,-1,true,false>' being compiled
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(664): note: while compiling class template member function 'void GA_RWHandleT<fpreal32,void>::set(GA_Offset,int,T) const'
-          with
-          [
-              T=fpreal32
-          ]
-  e:\cis660\particle2\hlsystem\sop_sparticle.c(272): note: see reference to function template instantiation 'void GA_RWHandleT<fpreal32,void>::set(GA_Offset,int,T) const' being compiled
-          with
-          [
-              T=fpreal32
-          ]
-  e:\cis660\particle2\hlsystem\sop_sparticle.h(105): note: see reference to class template instantiation 'GA_RWHandleT<fpreal32,void>' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_atinumeric.h(322): note: see reference to class template instantiation 'GA_PageArray<void,-1,true,false>' being compiled
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(2235): warning C4307: '*': integral constant overflow
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1895): warning C4244: 'argument': conversion from 'SRC_DATA_T' to 'fpreal32', possible loss of data
           with
@@ -1403,63 +1450,35 @@ c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pa
               IDX_T=GA_Offset,
               SRC_DATA_T=int32
           ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1891): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,int32>(IDX_T,exint,SRC_DATA_T)' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1891): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,TO>(IDX_T,exint,SRC_DATA_T)' being compiled
           with
           [
               DATA_T=int,
               IDX_T=GA_Offset,
+              TO=int32,
               SRC_DATA_T=int32
           ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1891): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,int32>(IDX_T,exint,SRC_DATA_T)' being compiled
+  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1891): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,IDX_T>::op<0,TO>(IDX_T,exint,SRC_DATA_T)' being compiled
           with
           [
               DATA_T=int,
               IDX_T=GA_Offset,
+              TO=int32,
               SRC_DATA_T=int32
           ]
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
           with
           [
-              DATA_T=float,
-              SRC_DATA_T=fpreal32,
+              DATA_T=void,
+              SRC_DATA_T=int64,
               IDX_T=GA_Offset
           ]
   c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(646): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::opUnknownType<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
           with
           [
-              DATA_T=float,
-              SRC_DATA_T=fpreal32,
+              DATA_T=void,
+              SRC_DATA_T=int64,
               IDX_T=GA_Offset
-          ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(630): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::op<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
-          with
-          [
-              DATA_T=float,
-              SRC_DATA_T=fpreal32,
-              IDX_T=GA_Offset
-          ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(630): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::op<0,SRC_DATA_T>(IDX_T,exint,SRC_DATA_T)' being compiled
-          with
-          [
-              DATA_T=float,
-              SRC_DATA_T=fpreal32,
-              IDX_T=GA_Offset
-          ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(670): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<T>(IDX_T,exint,SRC_DATA_T)' being compiled
-          with
-          [
-              DATA_T=float,
-              T=fpreal32,
-              IDX_T=GA_Offset,
-              SRC_DATA_T=fpreal32
-          ]
-  c:\program files\side effects software\houdini 17.0.459\toolkit\include\ga\ga_handle.h(670): note: see reference to function template instantiation 'void UT_PageArray<DATA_T,1,true,false,10,GA_Offset>::set<T>(IDX_T,exint,SRC_DATA_T)' being compiled
-          with
-          [
-              DATA_T=float,
-              T=fpreal32,
-              IDX_T=GA_Offset,
-              SRC_DATA_T=fpreal32
           ]
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1895): warning C4244: 'argument': conversion from 'SRC_DATA_T' to 'fpreal32', possible loss of data
           with
@@ -1975,10 +1994,7 @@ c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pa
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1863): warning C4244: 'argument': conversion from 'int' to 'fpreal32', possible loss of data
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1865): warning C4244: 'argument': conversion from '__int64' to 'fpreal32', possible loss of data
 c:\program files\side effects software\houdini 17.0.459\toolkit\include\ut\ut_pagearray.h(1871): warning C4244: 'argument': conversion from 'double' to 'fpreal32', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\CIS660\particle2\hlsystem\..\output\particle.dll) does not match the Linker's OutputFile property value (C:\PluginHoudini\particle_Release64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\CIS660\LHG\houdini\Litzup\hlsystem\..\output\particle.dll) does not match the Linker's OutputFile property value (C:\PluginHoudini\particle_Release64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(particle) does not match the Linker's OutputFile property value (particle_Release64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-  main.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
      Creating library ..\output\particle.lib and object ..\output\particle.exp
-  Generating code
-  Finished generating code
-  hlsystem.vcxproj -> E:\CIS660\particle2\hlsystem\..\output\particle.dll
+  hlsystem.vcxproj -> E:\CIS660\LHG\houdini\Litzup\hlsystem\..\output\particle.dll
