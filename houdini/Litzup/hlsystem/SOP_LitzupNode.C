@@ -199,11 +199,11 @@ void SOP_LitzupNode::buildLGH(const GU_Detail *mySource, fpreal currframe, OP_Co
 
 	//******TODO: remember to get rid of the namespace *******//
 	//cy::LightingGridHierarchy LGH;
-
+	fpreal now = context.getTime();
 	lightGrid LGH;
 
 	int minLevelLights = 1;
-	float cellSize = CELL_SIZE();
+	float cellSize = CELL_SIZE(now);
 	int highestLevel = 8;
 
 	//const cy::Point3f *lightPos_ptr = positions.data();
@@ -337,7 +337,7 @@ SOP_LitzupNode::cookMySop(OP_Context &context)
 
     // Now, indicate that we are time dependent (i.e. have to cook every
     // time the current frame changes).
-    OP_Node::flags().timeDep = 1;
+    OP_Node::flags().setTimeDep(1);
 
     // Channel manager has time info for us
     CH_Manager *chman = OPgetDirector()->getChannelManager();
