@@ -52,6 +52,13 @@ public:
 		return DoBuild(lightPos, lightIntensities, numLights, 0, minLevelLights, cellSize, highestLevel);
 	}
 
+	bool BuildAuto(const UT_Vector3F *lightPos,
+		const UT_Vector3F   *lightIntensities, int numLights, int minLevelLights, float cellSize, int highestLevel)
+	{
+		//****************TODO: update dobuild***********************//
+		return DoBuild(lightPos, lightIntensities, numLights, 1, minLevelLights, cellSize, highestLevel);
+	}
+
 
 private:
 	Level *levels;
