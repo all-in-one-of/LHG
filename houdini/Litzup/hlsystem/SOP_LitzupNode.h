@@ -36,9 +36,11 @@
 
 #define INT_PARM(name, idx, vidx, t)	\
 	    return evalInt(name, &myOffsets[idx], vidx, t);
+//
+//#define FLT_PARM(name, idx, vidx, t)	\
+//	    return evalFloat(name, &myOffsets[idx], vidx, t);
 
-#define FLT_PARM(name, idx, vidx, t)	\
-	    return evalFloat(name, &myOffsets[idx], vidx, t);
+#define 	FLT_PARM(name, vi, t)   { return evalFloat(name, vi, t); }
 
 class GEO_ParticleVertex;
 class GEO_PrimParticle;
@@ -89,7 +91,9 @@ private:
     //	doesn't have to be in sequential order...
     int			 ALPHA()	{	  INT_PARM("alpha", 0, 0, 0) }
 
-	fpreal		 CELL_SIZE() { FLT_PARM("cell_size", 2, 0, 0) }
+	/*fpreal		 CELL_SIZE() { FLT_PARM("cell_size", 2, 0, 0) }*/
+
+	fpreal		 CELL_SIZE(fpreal t) { FLT_PARM("cell_size", 0, t) }
 
     const GU_Detail	*mySource;
     GA_Index		 mySourceNum;		// Source point to birth from
