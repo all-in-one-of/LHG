@@ -1,5 +1,5 @@
 #include "lightGrid.h"
-
+#include <iostream>
 
 
 lightGrid::lightGrid()
@@ -101,12 +101,12 @@ bool lightGrid::DoBuild(const UT_Vector3F *lightPos, const UT_Vector3F *lightCol
 	else {
 		int highestLevelMult = 1 << (highestLevel - 1);
 		highestCellSize = cellSize * highestLevelMult;
+		
 		while (highestLevel > 1 && highestCellSize > boundDifMin * 2) {
 			highestLevel--;
 			highestLevelMult = 1 << (highestLevel - 1);
 			highestCellSize = cellSize * highestLevelMult;
 		}
-
 		//**************MAY HAVE ISSUE ******** chianti: update assigning highestGridRes***************//
 		//highestGridRes = cy::IPoint3i(boundDif / highestCellSize) + 2;
 		highestGridRes = UT_Vector3i(boundDif / highestCellSize) + UT_Vector3i(2, 2, 2);
@@ -166,8 +166,26 @@ bool lightGrid::DoBuild(const UT_Vector3F *lightPos, const UT_Vector3F *lightCol
 		UT_Vector3F normP = pos / cellSize;
 		/*index = UT_Vector3i((int32_t)normP.x, (int32_t)normP.y, (int32_t)normP.z);*/
 		index = UT_Vector3i(normP.x(), normP.y(), normP.z());
+
+		if (index.z() < 0) {
+			std::cout << "index.z < 0" << std::endl;
+		}
+
+		if (index.x() < 0) {
+			std::cout << "index.x < 0" << std::endl;
+		}
+
+		if (index.y() < 0) {
+			std::cout << "index.y < 0" << std::endl;
+		}
+
 		return normP - UT_Vector3F(index.x(), index.y(), index.z());
+
 	};
+
+	
+
+
 
 	//auto addLightToNodes = [](std::vector<Node> &nds, const int nodeIDs[8], 
 	//	const Point3f &interp, const Point3f &light_pos, const Color &light_color)
@@ -185,7 +203,7 @@ bool lightGrid::DoBuild(const UT_Vector3F *lightPos, const UT_Vector3F *lightCol
 	/*Point3f highestGridSize = Point3f(highestGridRes - 1) * highestCellSize;
 	Point3f center = (boundMax + boundMin) / 2;
 	Point3f corner = center - highestGridSize / 2; */
-	UT_Vector3i highestGridSize = (highestGridRes - UT_Vector3i(1)) * highestCellSize;
+	UT_Vector3 highestGridSize = (UT_Vector3F(-1.0) + UT_Vector3F(highestGridRes.x(), highestGridRes.y(), highestGridRes.z())) * highestCellSize;
 	UT_Vector3F center = (boundMax + boundMin) / 2;
 	UT_Vector3F corner = center - UT_Vector3F(highestGridSize.x() / 2.f, highestGridSize.y() / 2.f, highestGridSize.z() / 2.f);
 
@@ -296,7 +314,11 @@ bool lightGrid::DoBuild(const UT_Vector3F *lightPos, const UT_Vector3F *lightCol
 							int ii = ((index.z() >> l) & 4) | ((index.y() >> (l + 1)) & 2) | ((index.x() >> (l + 2)) & 1);
 							assert(nodes[l + 1][nid].firstChild >= 0);
 							nid = nodes[l + 1][nid].firstChild + ii;
-							assert(nid >= 0 && nid < (int)nodes[l].size());
+							// assert(nid >= 0 && nid < (int)nodes[l].size());
+
+							if (!(nid >= 0 && nid < (int)nodes[l].size())) {
+								std::cout << nid << std::endl;
+							}
 						}
 						nodeIDs[j] = nid;
 					}
